@@ -7,8 +7,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'herrtxbias', // Usually your GitHub org/user name.
-  projectName: 'utilbot-docs', // Usually your repo name.
+  organizationName: 'utilbot', // Usually your GitHub org/user name.
+  projectName: 'documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Utilbot Docs',
@@ -25,7 +25,7 @@ module.exports = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/herrtxbias/utilbot-docs',
+          href: 'https://github.com/utilbot/documentation',
           label: 'GitHub',
           position: 'right',
         },
@@ -65,7 +65,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/herrtxbias/utilbot-docs',
+              href: 'https://github.com/utilbot/documentation',
             },
           ],
         },
@@ -80,13 +80,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/HerrTxbias/utilbot-docs/edit/master/',
+          editUrl: 'https://github.com/utilbot/documentation/edit/master/',
         },
         /* blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/HerrTxbias/utilbot-docs/edit/master/blog/',
+            'https://github.com/utilbot/documentation/edit/master/blog/',
         }, */
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
