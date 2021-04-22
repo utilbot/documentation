@@ -23,3 +23,27 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.cl-added {
+  color: #43b581;
+}
+.cl-progress {
+  color: #faa61a;
+}
+.cl-fixed {
+  color: #f04747;
+}
+.cl-timestamp {
+  color: #858585;
+}
+
+.cl-added, .cl-progress, .cl-fixed {
+  display: flex;
+  line-height: 20px;
+  font-size: 18px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}

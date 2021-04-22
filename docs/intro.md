@@ -2,34 +2,14 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
+Hey! You successfully found the Online-Documentation for the Utilbot! This is meant to be a Help to use the Bot. You will find all Commands, all Changelogs, just **EVERYTHING** here!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Bugs
+If you experience any Bugs, *please* let me know on my [Discord Server](https://discord.gg/rsTpm8e)! You're also welcome there, if you just wanna hang around and meet some new people. You can do anything there (as long it's in compliance with the Rules of course).
 
-## Getting Started
+You will find any known Bugs [here](/docs/known-bugs).
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/getting-started.md` and edit some lines: the site **reloads automatically** and display your changes.
+:::info
+Some Texts are automatically translated via DeepL.
+:::
