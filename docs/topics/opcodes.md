@@ -5,7 +5,7 @@ sidebar_position: 1
 # Opcodes
 Everything that will be sent through the Gateway has it's own Opcode, so everyone knows what is going to be sent and recieved.
 
-## Gatway Opcodes
+## Gateway Opcodes
 | CODE                        | NAME          | CLIENT ACTION | DESCRIPTION |
 | --------------------------- | ------------- | ------------- | ----------- |
 | [-1](#error)                | Error         | Recieve       | Something went completely wrong. Just reconnect. |
