@@ -4,6 +4,10 @@ sidebar_position: 0
 ---
 
 ## Command
+:::danger Deprecated
+Note that this command won't be available in the upcoming major release of the bot. We will translate all texts to English and then remove the translations.
+:::
+
 ```
 p!changeLanguage <locale> / p!clang <locale>
 ```
