@@ -14,6 +14,13 @@ We are also starting to implement more Slash Commands on our Canary Version.
 
 The new upcoming Feature called ["Threads"](https://github.com/discord/discord-api-docs/pull/2855) will *also* take some time to implement, as we need to wait for the library update. We are sorry for the inconvenience.
 
+## Important Links
+- Website: [https://utilbot.co](https://utilbot.co)
+- Canary Website: [https://canary.utilbot.co](https://canary.utilbot.co)
+- Discord Support Server: [https://utilbot.co/discord](https://utilbot.co/discord)
+- Invite the Bot: [https://utilbot.co/invite](https://utilbot.co/invite)
+- Invite the Canary Bot: [https://canary.utilbot.co/invite](https://canary.utilbot.co/invite)
+
 :::info
 Some Texts are automatically translated via DeepL.
 :::
