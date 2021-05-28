@@ -13,7 +13,7 @@ p!play <search> / p!p <search>
 This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
 :::
 
-Plays the given serach from YouTube.
+Plays the given search from YouTube.
 
 ## Permission
 `none`
