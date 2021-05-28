@@ -4,7 +4,15 @@ sidebar_position: 3
 ---
 
 ## Command
+```txt title="Slash Command"
+/mod ban <user> <global> [message_delete_days] [reason]
 ```
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
+
+But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
+:::
+```txt title="Old Command"
 p!ban <user> / p!b <user>
 ```
 
@@ -17,7 +25,13 @@ Bans a Member.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| user | User | A tag of a user (ID should also work) | @HerrTxbias#1337 |
+| user | User | A user (ID should also work) | @HerrTxbias |
+| global* | Boolean | If this should be registered as a global ban | true |
+| message_delete_days* | Integer | Delete messages of the user for the past x days | 4 |
+| reason* ** | String | The ban reason | Writing rude things |
+`*: This argument is only available with the Slash Command`
+
+`**: This argument is required, when global is set to true`
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_4NnmcyRZEo.png)
+![Image](https://cdn.herrtxbias.net/2021-05-28_b0cb29be-4a31-47f1-a020-340947540baf.png)

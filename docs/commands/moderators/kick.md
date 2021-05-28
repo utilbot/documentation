@@ -4,7 +4,15 @@ sidebar_position: 2
 ---
 
 ## Command
+```txt title="Slash Command"
+/mod kick <user>
 ```
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
+
+But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
+:::
+```txt title="Old Command"
 p!kick <user> / p!k <user>
 ```
 
@@ -17,7 +25,7 @@ Kicks a Member.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| user | User | A tag of a user (ID should also work) | @HerrTxbias#1337 |
+| user | USER | A user (ID should also work) | @HerrTxbias |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_4NnmcyRZEo.png)
+![Image](https://cdn.herrtxbias.net/2021-05-28_80b15eb0-8ab5-4d3d-a922-7f13dc73068c.png)

@@ -19,6 +19,12 @@ function HomepageHeader() {
             to="/docs/main/intro">
             Utilbot Introduction
           </Link>
+          &nbsp;
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/commands/command-overview">
+            Utilbot Commands
+          </Link>
         </div>
       </div>
     </header>
