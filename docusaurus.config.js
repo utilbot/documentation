@@ -19,9 +19,15 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'main/intro',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          type: 'doc',
+          docId: 'commands/command-overview',
+          position: 'left',
+          label: 'Commands',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -81,6 +87,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/utilbot/documentation/edit/master/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
         },
         /* blog: {
           showReadingTime: true,

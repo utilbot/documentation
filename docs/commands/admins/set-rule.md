@@ -7,7 +7,7 @@ sidebar_position: 6
 :::info Command Deprecated
 Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
 
-But it is deprecated and will be replaced by the [Slash Command](/docs/admins/rules) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](rules) with the next major release (already available on Canary).
 :::
 ```
 p!setRule <role> / p!sr <role>

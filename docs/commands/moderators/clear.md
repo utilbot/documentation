@@ -17,7 +17,7 @@ Deletes all, or a specific amount of messages in the Chat.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| ```message_num``` | number | The amount of messages to delete. Argument is optional. | ```20``` |
+| `message_num` | number | The amount of messages to delete. Argument is optional. | `20` |
 
 ## Sample Response
 ```

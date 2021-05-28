@@ -17,7 +17,7 @@ The new upcoming Feature called ["Threads"](https://github.com/discord/discord-a
 ### Deprecated Commands / Features
 With the upcoming Major Release, we are going to remove some Commands or Features.
 If you have a look in a page of a Command there will be a note, if this command / feature is deprecated.
-There is also Hint in the [command overview](/docs/command-overview).
+There is also Hint in the [command overview](../commands/command-overview).
 
 ## Important Links
 - Website: [https://utilbot.co](https://utilbot.co)

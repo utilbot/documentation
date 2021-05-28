@@ -35,7 +35,7 @@ The Gateway is reachable via `wss://gateway.utilbot.co`. You can connect via a n
 
 Example Connection strings: `wss://gateway.utilbot.co/?v=1` or `wss://gateway.utilbot.co/?v=1&encoding=zlib`
 
-When the connection was successful, you should recieve the [Hello Opcode 5](/docs/topics/opcodes#gateway-opcodes) paylod, with the heartbeat interval:
+When the connection was successful, you should recieve the [Hello Opcode 5](opcodes#gateway-opcodes) paylod, with the heartbeat interval:
 
 #### Example Hello
 ```json
@@ -48,9 +48,9 @@ When the connection was successful, you should recieve the [Hello Opcode 5](/doc
 ```
 
 ### Heartbeating
-After recieving the Hello, you must start sending the [Heartbeat Opcode 10](/docs/topics/opcodes#gateway-opcodes) every `heartbeat` milliseconds. When the Gateway recieves this Heartbeat, it will send you an ACK via the [ACK Opcode 11](/docs/topics/opcodes#gateway-opcodes). If you stop recieving this ACK, you must reconnect to the Gateway.
+After recieving the Hello, you must start sending the [Heartbeat Opcode 10](opcodes#gateway-opcodes) every `heartbeat` milliseconds. When the Gateway recieves this Heartbeat, it will send you an ACK via the [ACK Opcode 11](opcodes#gateway-opcodes). If you stop recieving this ACK, you must reconnect to the Gateway.
 
-When the Gateway doesn't recieve a Heartbeat when the next one should be sent, it closes the Connection with the Error Code [4006](/docs/topics/opcodes#gateway-error-codes).
+When the Gateway doesn't recieve a Heartbeat when the next one should be sent, it closes the Connection with the Error Code [4006](opcodes#gateway-error-codes).
 
 #### Example Heartbeat ACK
 ```json
@@ -60,7 +60,7 @@ When the Gateway doesn't recieve a Heartbeat when the next one should be sent, i
 ```
 
 ### Identifying
-After you started sending the Hearbeats, you must send the [Identify Event](/docs/topics/events#identify). This is done via the [Event Send Opcode 1](/docs/topics/opcodes#gateway-opcodes). Any data you send before Identifying will be ignored and never answered.
+After you started sending the Hearbeats, you must send the [Identify Event](events#identify). This is done via the [Event Send Opcode 1](opcodes#gateway-opcodes). Any data you send before Identifying will be ignored and never answered.
 
 #### Example Identify
 ```json
@@ -74,4 +74,4 @@ After you started sending the Hearbeats, you must send the [Identify Event](/doc
 }
 ```
 
-When everything is valid, you will get a response with the [Connection Success Event](/docs/topics/events#connection-success)
+When everything is valid, you will get a response with the [Connection Success Event](events#connection-success)

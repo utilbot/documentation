@@ -21,7 +21,7 @@ After recieving an Error, your Connection gets closed and you need to reconnect 
 | CODE | DESCRIPTION    | EXPLANATION |
 | ---- | -------------- | ----------- |
 | 1000 | Unknown Error  | Uhm, I don't know what went wrong. Just reconnect. |
-| 4000 | Wrong Version  | You gave the Gateway a wrong or outdated [Gateway Version](/docs/topics/gateway#gateway-versions). |
+| 4000 | Wrong Version  | You gave the Gateway a wrong or outdated [Gateway Version](gateway#gateway-versions). |
 | 4001 | Wrong Auth Key | You submitted an auth key, that is either wrong or expired. |
 | 4002 | Bot ID Used    | The Bot ID, that was automatically generated is already in use. This should never happen, so you should never see this error. Hopefully. |
 | 4003 | No Opcode      | No Opcode was provided. |
@@ -54,7 +54,7 @@ Example Payload
 ```
 
 ### Event from the Gatway
-An Event was emited from the Gateway to the Client. You will recieve the [Event Name](/docs/topics/events#list), as well as the data for the specific Event.
+An Event was emited from the Gateway to the Client. You will recieve the [Event Name](events#list), as well as the data for the specific Event.
 
 Example Payload
 ```json
@@ -70,14 +70,14 @@ Example Payload
 ```
 
 ### Event from the Client
-An Event was emited from the Client to the Gateway. You will recieve the [Event Name](/docs/topics/events#list), as well as the data for the specific Event.
+An Event was emited from the Client to the Gateway. You will recieve the [Event Name](events#list), as well as the data for the specific Event.
 
-Example Payload -> see [here](/docs/topics/gateway#example-identify)
+Example Payload -> see [here](gateway#example-identify)
 
 ### Hello
 After Connecting, you will recieve this Hello Payload. It contains important information for your Heartbeat.
 
-Example Payload -> see [here](/docs/topics/gateway#example-hello)
+Example Payload -> see [here](gateway#example-hello)
 
 ### Heartbeat
 A Hearbeat payload just containts the opcode. No additional data should be sent.
@@ -92,4 +92,4 @@ Example Payload
 ### Heartbeat ACK
 After sending a Heartbeat Packet, you (should (in the best case (i really really hope))) recieve this ACK. If not, please reconnect to the Gateway.
 
-Example Payload -> see [here](/docs/topics/gateway#example-heartbeat-ack)
+Example Payload -> see [here](gateway#example-heartbeat-ack)
