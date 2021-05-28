@@ -1,9 +1,14 @@
 ---
 title: 'Set Teamlist'
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 ## Command
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
+
+But it is deprecated and will be replaced by the [Slash Command](teamlist) with the next major release (already available on Canary).
+:::
 ```
 p!setTeamList / p!stl
 ```

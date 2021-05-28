@@ -4,7 +4,7 @@ sidebar_position: 7
 ---
 
 ## Command
-:::info Command Deprecated
+:::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
 
 But it is deprecated and will be replaced by the [Slash Command](rules) with the next major release (already available on Canary).
