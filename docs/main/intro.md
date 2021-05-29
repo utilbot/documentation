@@ -15,7 +15,7 @@ We are also starting to implement more Slash Commands on our Canary Version.
 The new upcoming Feature called ["Threads"](https://github.com/discord/discord-api-docs/pull/2855) will *also* take some time to implement, as we need to wait for the library update. We are sorry for the inconvenience.
 
 ### Deprecated Commands / Features
-With the upcoming Major Release, we are going to remove some Commands or Features.
+With the upcoming Major Release, we are going to remove some Commands and Features.
 If you have a look in a page of a Command there will be a note, if this command / feature is deprecated.
 There is also Hint in the [command overview](../commands/command-overview).
 
