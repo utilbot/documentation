@@ -78,6 +78,12 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Utilbot. Built with Docusaurus.`,
     },
+    algolia: {
+      apiKey: 'af515649662234a03ff5d66693ab3645',
+      indexName: 'netlify_9002ff46-fb24-4ead-bce6-5af4c753418b_master_all',
+      contextualSearch: true,
+      appId: 'HR2NTL48A1',
+    },
   },
   presets: [
     [
