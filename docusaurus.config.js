@@ -82,6 +82,7 @@ module.exports = {
       apiKey: 'af515649662234a03ff5d66693ab3645',
       indexName: 'netlify_9002ff46-fb24-4ead-bce6-5af4c753418b_master_all',
       appId: 'HR2NTL48A1',
+      contextualSearch: true,
     },
   },
   presets: [
