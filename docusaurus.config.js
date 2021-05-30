@@ -89,22 +89,20 @@ module.exports = {
       },
     },
   },
+  themes: ['@docusaurus/theme-live-codeblock'],
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/utilbot/documentation/edit/master/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
         },
         /* blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/utilbot/documentation/edit/master/blog/',
+          editUrl: 'https://github.com/utilbot/documentation/edit/master/blog/',
         }, */
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
