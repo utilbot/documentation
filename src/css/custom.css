@@ -52,3 +52,7 @@ html[data-theme='dark'] {
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
+
+.DocSearch-HitsFooter ::before {
+  padding-top: 5vh;
+}
