@@ -4,6 +4,11 @@ sidebar_position: 3
 ---
 
 ## Command
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot!
+
+But it is deprecated and will be replaced by the [Slash Command](warns) with the next major release (already available on Canary).
+:::
 ```
 p!warnLimits [<limitName> <newLimit>] / p!wl [<limit_name> <newLimit>]
 ```

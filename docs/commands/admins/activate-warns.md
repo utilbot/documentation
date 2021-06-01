@@ -1,9 +1,14 @@
 ---
 title: 'Activate Warns'
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 ## Command
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot!
+
+But it is deprecated and will be replaced by the [Slash Command](warns) with the next major release (already available on Canary).
+:::
 ```
 p!activateWarns / p!aw
 ```
