@@ -1,9 +1,14 @@
 ---
 title: 'Reset Log'
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 ## Command
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot!
+
+But it is deprecated and will be replaced by the [Slash Command](log) with the next major release (already available on Canary).
+:::
 ```
 p!resetLog / p!rsl
 ```
