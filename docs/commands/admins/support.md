@@ -6,7 +6,7 @@ sidebar_position: 8
 ## Command
 :::caution Threads are still in Closed Beta!
 The Threads Feature is still in Closed Beta.
-Only Bot Developers in small servers (Maximum 5 Members, one **must** be a bot) can test Threads for now.
+Only Bot Developers in small servers (Maximum 5 Members, one **must** be a bot, you **must** be using Discord Canary or PTB) can test Threads for now.
 
 This feature also needs a specific *Guild Feature* enabled in your Guild.
 We know from the current Developer Docs, that server boosting will enable private threads, but we don't know on which level.
