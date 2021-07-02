@@ -9,7 +9,7 @@ sidebar_position: 8
 ```
 
 ## Description
-Sets the Rule Role and the channel for the message, where the User can click the Button.
+Manage the Teamlist feature.
 
 ## Permission
 `ADMINISTRATOR`

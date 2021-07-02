@@ -18,7 +18,7 @@ When the required server boost level is known, we will add it here.
 ```
 
 ## Description
-Sets the Rule Role and the channel for the message, where the User can click the Button.
+Manages the Support feature.
 
 ## Permission
 `ADMINISTRATOR`
