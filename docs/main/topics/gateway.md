@@ -33,7 +33,7 @@ The Gateway is reachable via `wss://gateway.utilbot.co`. You can connect via a n
 | v            | integer | Gateway Version                       | see [gateway versions](#gateway-versions) |
 | compression? | string  | The (optional) compression of packets | 'zlib' |
 
-Example Connection strings: `wss://gateway.utilbot.co/?v=1` or `wss://gateway.utilbot.co/?v=1&encoding=zlib`
+Example Connection strings: `wss://gateway.utilbot.co/?v=1` or `wss://gateway.utilbot.co/?v=1&compression=zlib`
 
 When the connection was successful, you should recieve the [Hello Opcode 5](opcodes#gateway-opcodes) paylod, with the heartbeat interval:
 
