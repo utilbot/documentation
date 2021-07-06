@@ -1,20 +1,20 @@
 ---
-title: 'Maximum Warns'
-sidebar_position: 4
+title: 'Reset Log'
+sidebar_position: 12
 ---
 
 ## Command
 :::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](warns) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](../../admins/log) with the next major release (already available on Canary).
 :::
 ```
-p!maxWarns / p!mw
+p!resetLog / p!rsl
 ```
 
 ## Description
-Shows the current maximum warn count.
+Stops the Log function.
 
 ## Permission
 `ADMINISTRATOR`
@@ -25,4 +25,4 @@ Shows the current maximum warn count.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_PdDkqJJfKj.png)
+![Image](https://cdn.herrtxbias.net/Discord_lA62I3CE8v.png)

@@ -1,20 +1,20 @@
 ---
-title: 'Reset Log'
-sidebar_position: 12
+title: 'Deactivate Warns'
+sidebar_position: 2
 ---
 
 ## Command
 :::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](log) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](../../admins/warns) with the next major release (already available on Canary).
 :::
 ```
-p!resetLog / p!rsl
+p!deactivateWarns / p!daw
 ```
 
 ## Description
-Stops the Log function.
+Deactivates the Warn function.
 
 ## Permission
 `ADMINISTRATOR`
@@ -25,4 +25,4 @@ Stops the Log function.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_lA62I3CE8v.png)
+![Image](https://cdn.herrtxbias.net/Discord_C6S9TYB0dV.png)

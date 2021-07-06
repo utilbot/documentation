@@ -1,20 +1,20 @@
 ---
-title: 'Set Log'
-sidebar_position: 11
+title: 'Reset Rule'
+sidebar_position: 7
 ---
 
 ## Command
 :::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](log) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](../../admins/rules) with the next major release (already available on Canary).
 :::
 ```
-p!setLog / p!sl
+p!resetRule / p!rsr
 ```
 
 ## Description
-Sets the Log Channel.
+Stops the Rule function.
 
 ## Permission
 `ADMINISTRATOR`
@@ -25,4 +25,6 @@ Sets the Log Channel.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_DTJePt6RvC.png)
+```
+none
+```

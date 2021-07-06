@@ -7,7 +7,7 @@ sidebar_position: 2
 :::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](warns) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](../../admins/warns) with the next major release (already available on Canary).
 :::
 ```
 p!activateWarns / p!aw

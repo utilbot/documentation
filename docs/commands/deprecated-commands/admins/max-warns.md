@@ -1,20 +1,20 @@
 ---
-title: 'Reset Rule'
-sidebar_position: 7
+title: 'Maximum Warns'
+sidebar_position: 4
 ---
 
 ## Command
 :::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](rules) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](../../admins/warns) with the next major release (already available on Canary).
 :::
 ```
-p!resetRule / p!rsr
+p!maxWarns / p!mw
 ```
 
 ## Description
-Stops the Rule function.
+Shows the current maximum warn count.
 
 ## Permission
 `ADMINISTRATOR`
@@ -25,6 +25,4 @@ Stops the Rule function.
 |  |  |  | None |
 
 ## Sample Response
-```
-none
-```
+![Image](https://cdn.herrtxbias.net/Discord_PdDkqJJfKj.png)
