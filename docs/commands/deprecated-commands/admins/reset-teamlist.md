@@ -7,7 +7,7 @@ sidebar_position: 10
 :::caution Command Deprecated
 Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](teamlist) with the next major release (already available on Canary).
+But it is deprecated and will be replaced by the [Slash Command](../../admins/teamlist) with the next major release (already available on Canary).
 :::
 ```
 p!resetTeamList / p!rstl
