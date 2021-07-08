@@ -4,9 +4,8 @@ sidebar_position: 0
 ---
 
 ## Command
-:::danger Deprecated
-Note that this command won't be available in the upcoming major release of the bot. We will translate all texts to English and then remove the translations.
-We will also migrate the bot language on every guild to English, if it was set to German.
+:::danger Command Removed
+This Command has been removed and all Guilds were migrated to English.
 :::
 ```
 p!changeLanguage <locale> / p!clang <locale>

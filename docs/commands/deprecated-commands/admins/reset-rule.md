@@ -4,10 +4,8 @@ sidebar_position: 7
 ---
 
 ## Command
-:::caution Command Deprecated
-Note: This Command still works on the Stable version of Utilbot!
-
-But it is deprecated and will be replaced by the [Slash Command](../../admins/rules) with the next major release (already available on Canary).
+:::danger Command Removed
+This Command is removed and has been replaced by the [Slash Command](../../admins/rules).
 :::
 ```
 p!resetRule / p!rsr
