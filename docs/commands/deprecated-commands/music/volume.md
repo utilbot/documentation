@@ -4,15 +4,16 @@ sidebar_position: 4
 ---
 
 ## Command
+:::caution Command Deprecated
+Note: This Command still works on the Stable version of Utilbot!
+
+But it is deprecated and will be replaced by the [Slash Command](../../music/filter) with the next major release (already available on Canary).
+:::
 ```
 p!volume <amount> / p!v <amount>
 ```
 
 ## Description
-:::info
-This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
-:::
-
 Sets the Volume for the Player.
 
 ## Permission

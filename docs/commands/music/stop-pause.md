@@ -1,19 +1,23 @@
 ---
-title: 'Stop / Pause'
+title: 'Pause'
 sidebar_position: 3
 ---
 
 ## Command
+```txt title="Slash Command"
+/pause
 ```
+:::info Command Deprecated
+Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
+
+But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
+:::
+```txt title="Old Command"
 p!stop / p!pause
 ```
 
 ## Description
-:::info
-This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
-:::
-
-Stop / pauses the currently played Song.
+Pauses the currently played Song.
 
 ## Permission
 `none`

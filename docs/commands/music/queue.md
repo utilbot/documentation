@@ -4,16 +4,20 @@ sidebar_position: 1
 ---
 
 ## Command
+```txt title="Slash Command"
+/queue <list/skip/add/remove/clear>
 ```
+:::info Command Deprecated
+Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
+
+But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
+:::
+```txt title="Old Command"
 p!queue [search] / p!q [search]
 ```
 
 ## Description
-:::info
-This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
-:::
-
-Adds the given serach from YouTube to the Queue, or (without argument) shows the Queue.
+Manages the Song Queue.
 
 ## Permission
 `none`
@@ -21,7 +25,7 @@ Adds the given serach from YouTube to the Queue, or (without argument) shows the
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| search? | String | Something so search on YouTube. | `rick astley - never gonna give you up` |
+|  |  |  |  |
 
 ## Sample Response
 ![Image](https://cdn.herrtxbias.net/Discord_gWsEe9NnkH.png)

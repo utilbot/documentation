@@ -1,19 +1,23 @@
 ---
-title: 'Start / Resume'
+title: 'Resume'
 sidebar_position: 2
 ---
 
 ## Command
+```txt title="Slash Command"
+/resume
 ```
+:::info Command Deprecated
+Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
+
+But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
+:::
+```txt title="Old Command"
 p!start / p!resume
 ```
 
 ## Description
-:::info
-This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
-:::
-
-Starts / resumes the paused Song.
+Rsumes the paused Song.
 
 ## Permission
 `none`
