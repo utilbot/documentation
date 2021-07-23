@@ -15,7 +15,7 @@ Note that this Documentation is always for the latest Version of the Bot. There 
 Invite the Bot: [https://utilbot.co/invite](https://utilbot.co/invite)
 
 ## Utilbot Canary
-If you're living on the Edge and you always want to be on the latest state, this version may the best choice for you. This is our public beta version of the bot, where we test new features or breaking changes on our end. Be aware, that this bot is more likely to restart often and may have some problems executing Commands. You should report any Bugs on this Bot in our [Discord Server](https://utilbot.co/discord).
+If you're living on the Edge and you always want to be on the latest state, this version may the best choice for you. This is our public beta version of the bot, where we test new features or breaking changes on our end. Be aware, that this bot is more likely to restart often and may have some problems executing Commands. You should report any Bugs on this Bot in our [Discord Server](https://utilbot.co/discord). We maintain our own version of [discord.js here](https://github.com/utilbot/discord.js) for this bot to test new features from pull requests.
 
 Invite the Canary Bot: [https://canary.utilbot.co/invite](https://canary.utilbot.co/invite)
 
