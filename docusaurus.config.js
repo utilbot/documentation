@@ -105,7 +105,7 @@ module.exports = {
           editUrl: 'https://github.com/utilbot/documentation/edit/master/blog/',
         }, */
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css')],
         },
       },
     ],
