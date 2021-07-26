@@ -99,13 +99,34 @@ module.exports = {
           editUrl: 'https://github.com/utilbot/documentation/edit/master/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
+          admonitions: {
+            customTypes: {
+              primary: {
+                keyword: 'primary',
+                ifmClass: 'primary',
+              },
+              dark: {
+                keyword: 'dark',
+                ifmClass: 'dark',
+              },
+              secondary: 'note',
+              success: 'tip',
+              danger: {
+                keyword: 'danger',
+                ifmClass: 'danger',
+              },
+              warning: 'caution',
+              /* 'info': 'info', */
+            },
+            icons: "none",
+          },
         },
         /* blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/utilbot/documentation/edit/master/blog/',
         }, */
         theme: {
-          customCss: [require.resolve('./src/css/custom.css')],
+          customCss: [require.resolve('./src/css/custom.css'), require.resolve('./src/css/alerts.css'), require.resolve('./src/css/tables.css')],
         },
       },
     ],

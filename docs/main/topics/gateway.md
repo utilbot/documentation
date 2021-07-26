@@ -50,7 +50,7 @@ When the connection was successful, you should recieve the [Hello Opcode 5](opco
 ### Heartbeating
 After recieving the Hello, you must start sending the [Heartbeat Opcode 10](opcodes#gateway-opcodes) every `heartbeat` milliseconds. When the Gateway recieves this Heartbeat, it will send you an ACK via the [ACK Opcode 11](opcodes#gateway-opcodes). If you stop recieving this ACK, you must reconnect to the Gateway.
 
-When the Gateway doesn't recieve a Heartbeat when the next one should be sent, it closes the Connection with the Error Code [4006](opcodes#gateway-error-codes).
+When the Gateway doesn't recieve a Heartbeat when the next one should be sent, it closes the Connection with the [Error Code 4006](error-codes#gateway-error-codes).
 
 #### Example Heartbeat ACK
 ```json
