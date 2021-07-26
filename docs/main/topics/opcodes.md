@@ -6,14 +6,14 @@ sidebar_position: 1
 Everything that will be sent through the Gateway has it's own Opcode, so everyone knows what is going to be sent and recieved.
 
 ## Gateway Opcodes
-| CODE                        | NAME          | CLIENT ACTION | DESCRIPTION |
-| --------------------------- | ------------- | ------------- | ----------- |
-| [-1](#error)                | Error         | Recieve       | Something went completely wrong. Just reconnect. |
-| [0](#event-from-the-gatway) | Event         | Recieve       | An Event sent by the Gateway. |
-| [1](#event-from-the-client) | Event         | Send          | An Event sent by the Client. |
-| [5](#hello)                 | Hello         | Recieve       | Sent after Connecting. Has the `heartbeat` as parameter. |
-| [10](#heartbeat)            | Heartbeat     | Send          | Sent by the Client to keep the connection alive. |
-| [11](#heartbeat-ack)        | Heartbeat ACK | Recieve       | Acknowledges the Heartbeat from the Client. |
+| CODE                        | NAME          | SENT BY | DESCRIPTION |
+| --------------------------- | ------------- | ------- | ----------- |
+| [-1](#error)                | Error         | Gateway | Something went completely wrong. Just reconnect. |
+| [0](#event-from-the-gatway) | Event         | Gateway | An Event sent by the Gateway. |
+| [1](#event-from-the-client) | Event         | Client  | An Event sent by the Client. |
+| [5](#hello)                 | Hello         | Gateway | Sent after Connecting. Has the `heartbeat` as parameter. |
+| [10](#heartbeat)            | Heartbeat     | Client  | Sent by the Client to keep the connection alive. |
+| [11](#heartbeat-ack)        | Heartbeat ACK | Gateway | Acknowledges the Heartbeat from the Client. |
 
 ## Gateway Error Codes
 After recieving an Error, your Connection gets closed and you need to reconnect to the Gateway.
@@ -32,7 +32,7 @@ After recieving an Error, your Connection gets closed and you need to reconnect 
 
 ## Opcode specification
 ### Error
-The Error Opcode gets sent, if something went wrong. You will recieve a special [Error code](#gateway-error-codes), a describing message and sometimes an array with error messages, as well as an array with the objects you've sent, ordered by the error messages.
+The Error Opcode gets sent, if something went wrong. You will recieve a special [Error code](error-codes#gateway-error-codes), a describing message and sometimes an array with error messages, as well as an array with the objects you've sent, ordered by the error messages.
 
 Example Payload
 ```json
