@@ -79,14 +79,9 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Utilbot. Built with Docusaurus.`,
     },
     algolia: {
-      apiKey: 'af515649662234a03ff5d66693ab3645',
-      indexName: 'netlify_9002ff46-fb24-4ead-bce6-5af4c753418b_master_all',
-      appId: 'HR2NTL48A1',
-      contextualSearch: false,
-      searchParameters: {
-        attributesToRetrieve: ["hierarchy.lvl0","hierarchy.lvl1","hierarchy.lvl2","hierarchy.lvl3","hierarchy.lvl4","hierarchy.lvl5","hierarchy.lvl6","content","type","title","description","url"],
-        facetFilters: ["lang:en"],
-      },
+      apiKey: '0f674592087ad3e8adfe30874656e1d6',
+      indexName: 'docs_master',
+      appId: 'DX3S4XTWVM',
     },
   },
   themes: ['@docusaurus/theme-live-codeblock'],

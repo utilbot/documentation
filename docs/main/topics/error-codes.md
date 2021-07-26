@@ -19,3 +19,8 @@ After recieving an Error, your Connection gets closed and you need to reconnect 
 | 4005 | Malformed Data | Wrong or malformed data was provided for this Opcode. |
 | 4006 | No Heartbeat   | The Gateway didn't recieve a Heartbeat. |
 | 4007 | Wrong Identify | A wrong Identify Payload was sent. |
+
+## Error Code Specification
+:::info
+The specification of the error codes is not yet finished.
+:::
