@@ -4,10 +4,6 @@ sidebar_position: 1
 ---
 
 ## Command
-:::caution Threads are still in Closed Beta!
-The Threads Feature is still in Closed Beta.
-Only Bot Developers in small servers (Maximum 5 Members, one **must** be a bot, you **must** be using Discord Canary or PTB) can test Threads for now.
-:::
 ```txt
 /mod clear-threads
 ```
