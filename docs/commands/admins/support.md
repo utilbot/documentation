@@ -4,18 +4,9 @@ sidebar_position: 8
 ---
 
 ## Command
-:::caution Threads are still in Closed Beta!
-The Threads Feature is still in Closed Beta.
-Only Bot Developers in small servers (Maximum 5 Members, one **must** be a bot, you **must** be using Discord Canary or PTB) can test Threads for now.
-
-This feature also needs a specific **Guild Feature** enabled in your Guild.
-We know from the current Developer Docs, that server boosting will enable private threads.
-
-The [latest information](https://canary.discord.com/channels/613425648685547541/859161948184379403/860371388296462338) about the needed Boost Levels is:
-- Level 1: 3 day thread archive
-- Level 2: 7 day thread archive and private threads
-
-*Note that this is not officially documented and still subject to change*.
+:::caution Guild Feature required
+This feature needs a specific **Guild Feature** enabled in your Guild.
+Your server will need to be on [Boost level 2 or higher to enable private Threads](https://miro.medium.com/max/4800/0*zUFKzh_8O6_llECQ), which are required for this feature.
 :::
 ```
 /support enable <adjust_permissions> [support_channel]
