@@ -103,7 +103,15 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/utilbot/documentation/edit/master/',
+          editUrl: function ({
+            locale,
+            version,
+            versionDocsDirPath,
+            docPath,
+            permalink,
+          }) {
+            return `https://github.com/utilbot/documentation/edit/master/${versionDocsDirPath}/${docPath}`;
+          },
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
           admonitions: {
