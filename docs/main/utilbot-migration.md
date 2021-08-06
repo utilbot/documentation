@@ -10,7 +10,7 @@ During the release process, the bot is first completely stopped, all data is upd
 To make the process as understandable as possible, here is a brief summary of the process.
 
 ## Commands
-All commands marked as "deprecated" in the documentation will no longer work after the release.
+All commands marked as "deprecated" in the documentation won't work after the release.
 A response follows, with instructions to use the associated slash command if available. The only exception to this is the !help command, which will still work, but also contains a note about the new slash command.
 On the Canary version of the bot, the commands will be removed completely, so that there will be no answer there anymore.
 
