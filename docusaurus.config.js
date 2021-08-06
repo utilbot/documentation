@@ -31,6 +31,10 @@ module.exports = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
+          type: 'docsVersionDropdown',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/utilbot/documentation',
           label: 'GitHub',
           position: 'right',
@@ -122,6 +126,12 @@ module.exports = {
               /* 'info': 'info', */
             },
             icons: "none",
+          },
+          versions: {
+            current: {
+              label: '6.x.x Canary 🚧',
+              path: 'next',
+            },
           },
         },
         /* blog: {
