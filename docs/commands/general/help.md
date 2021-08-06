@@ -8,9 +8,7 @@ sidebar_position: 0
 /utilbot help
 ```
 :::info Command Deprecated
-Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
-
-Since this is an important command, both the old and the slash command will stay available.
+The Old help command is still available in v6 but we recommend using the new slash command.
 :::
 ```txt title="Old Command"
 p!help / p!h

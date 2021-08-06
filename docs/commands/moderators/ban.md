@@ -4,16 +4,8 @@ sidebar_position: 3
 ---
 
 ## Command
-```txt title="Slash Command"
+```txt
 /mod ban <user> <global> [message_delete_days] [reason]
-```
-:::caution Command Deprecated
-Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
-
-But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
-:::
-```txt title="Old Command"
-p!ban <user> / p!b <user>
 ```
 
 ## Description

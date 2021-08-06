@@ -8,14 +8,6 @@ Hey! You successfully found the Online-Documentation for the Utilbot! This is me
 ## Bugs
 If you experience any Bugs, *please* let me know on my [Discord Server](https://utilbot.co/discord)! You're also welcome there, if you just wanna hang around and meet some new people. You can do anything there (as long it's in compliance with the Rules of course).
 
-## Important Information
-:::warning
-We currently do **not** support Stage Channels as we wait for the library update. However if you're living on the edge, you can test the canary version of the Utilbot. We support stage channels and Threads in this version, as we are using the discord.js development branch there.
-:::
-:::warning
-Please have a look at our [Migration Process](utilbot-migration) for important Information about the new Commands and Features on the Stable Version!
-:::
-
 ### Deprecated Commands / Features
 With the upcoming Major Release, we are going to remove some Commands and Features.
 If you have a look in a page of a Command there will be a note, if this command / feature is deprecated.

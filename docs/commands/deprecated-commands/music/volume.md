@@ -4,10 +4,9 @@ sidebar_position: 4
 ---
 
 ## Command
-:::caution Command Deprecated
-Note: This Command still works on the Stable version of Utilbot!
 
-But it is deprecated and will be replaced by the [Slash Command](../../music/filter) with the next major release (already available on Canary).
+:::danger Command Removed
+This Command is removed and has been replaced by the [Slash Command](../../music/filter).
 :::
 ```
 p!volume <amount> / p!v <amount>

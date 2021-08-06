@@ -4,16 +4,8 @@ sidebar_position: 0
 ---
 
 ## Command
-```txt title="Slash Command"
+```txt
 /mod clear [message_num]
-```
-:::caution Command Deprecated
-Note: This Command still works on the Stable version of Utilbot! (See "Old Command").
-
-But it is deprecated and will be replaced by the Slash Command with the next major release (already available on [Canary](../../main/bot_versions#utilbot-canary)).
-:::
-```txt title="Old Command"
-p!clear / p!cl [message_num]
 ```
 
 ## Description
