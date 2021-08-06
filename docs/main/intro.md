@@ -10,9 +10,6 @@ If you experience any Bugs, *please* let me know on my [Discord Server](https://
 
 ## Important Information
 :::warning
-We currently do **not** support Stage Channels as we wait for the library update. However if you're living on the edge, you can test the canary version of the Utilbot. We support stage channels and Threads in this version, as we are using the discord.js development branch there.
-:::
-:::warning
 Please have a look at our [Migration Process](utilbot-migration) for important Information about the new Commands and Features on the Stable Version!
 :::
 
