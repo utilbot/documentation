@@ -94,6 +94,7 @@ module.exports = {
       apiKey: '0f674592087ad3e8adfe30874656e1d6',
       indexName: 'docs_master',
       appId: 'DX3S4XTWVM',
+      contextualSearch: true,
     },
   },
   themes: ['@docusaurus/theme-live-codeblock'],
