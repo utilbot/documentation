@@ -137,7 +137,7 @@ module.exports = {
           },
           versions: {
             current: {
-              label: '6.x.x Canary 🚧',
+              label: '🚧 Canary 🚧',
               path: 'next',
             },
           },
