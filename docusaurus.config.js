@@ -30,7 +30,7 @@ module.exports = {
           type: 'doc',
           docId: 'commands/command-overview',
           position: 'left',
-          label: 'Commands',
+          label: 'Commands and Interactions',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
