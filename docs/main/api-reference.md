@@ -5,7 +5,12 @@ sidebar_position: 0
 # API Reference
 
 :::info
-In the future, there will be an API, for a system like a global banlist, built in the Utilbot. But for now, this is just a placeholder and a little sneakpeak
+Coming :soon: ... For now, this is just a placeholder and a little sneakpeak
 :::
 
-Coming :soon: ...
+| API Version | Status | Default |
+| ----------- | ------ | ------- |
+| 1 | Discontinued |  |
+| 2 | Discontinued |  |
+| 3 | Deprecated |  |
+| 4 | Available | :white_check_mark: |
