@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # Important Notes
-## The future of the Music Feature
+## The future of Music with the Bot
 Dear Discord music community,
 
 unfortunately the team behind Groovy (a very popular music bot) has announced that they will shut down the bot on 08/30/2021.

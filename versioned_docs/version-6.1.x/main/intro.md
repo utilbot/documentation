@@ -5,7 +5,7 @@ sidebar_position: 1
 # Introduction
 Hey! You successfully found the Online-Documentation for the Utilbot! This is meant to be a Help to use the Bot. You will find all Commands, all Changelogs, just **EVERYTHING** here!
 
-:::danger The future of the Music Feature
+:::danger The future of Music with the Bot
 Please have a look on our [text about the future of the music feature](important-notes#the-future-of-the-music-feature).
 :::
 
