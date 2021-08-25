@@ -5,6 +5,10 @@ sidebar_position: 1
 # Introduction
 Hey! You successfully found the Online-Documentation for the Utilbot! This is meant to be a Help to use the Bot. You will find all Commands, all Changelogs, just **EVERYTHING** here!
 
+:::danger The future of the Music Feature
+Please have a look on our [text about the future of the music feature](important-notes#the-future-of-the-music-feature).
+:::
+
 :::success Message Content becoming a privileged Intent
 Please read our notes on Message Content becoming a privileged Intent [here](important-notes#message-content-becoming-a-privileged-intent).
 :::

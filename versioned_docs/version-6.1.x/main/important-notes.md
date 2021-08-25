@@ -2,6 +2,16 @@
 sidebar_position: 3
 ---
 # Important Notes
+## The future of the Music Feature
+Dear Discord music community,
+
+unfortunately the team behind Groovy (a very popular music bot) has announced that they will shut down the bot on 08/30/2021.
+The reason is simple, YouTube has recognized that the bot basically violates the Terms of Service and sent a cease and desist letter to Groovy.
+We will now check to what extent we can continue to offer the music function of the bot and will take further steps if necessary.
+We will keep you up to date here and announce our further steps as soon as possible.
+
+Many greetings
+
 ## Permissions
 All Permissions listed in the Specific Commands are explained more in the
 [Discord Developer Documentation "Bitwise Permission Flags"](https://discord.com/developers/docs/topics/permissions#permissions-bitwise-permission-flags)
