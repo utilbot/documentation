@@ -3,6 +3,13 @@ sidebar_position: 3
 ---
 # Important Notes
 ## The future of Music with the Bot
+**+++ UPDATE +++** *25.08.2021 23:30*
+
+As of now, we have disabled both YouTube and YouTube Music as source for the music. Only SoundCloud is available for now.
+This may be the final way, how we will handle this situation. However, we may add more sources in the future.
+
+**####################################**
+
 Dear Discord music community,
 
 unfortunately the team behind Groovy (a very popular music bot) has announced that they will shut down the bot on 08/30/2021.
