@@ -9,50 +9,50 @@ Please read our notes on the Message Content becoming a privileged Intent [here]
 :::
 
 ### General
-- [Help](general/help) <Label color="#43b581">Usable in Guild and DM</Label> <Label color="#43b581">Slash Command</Label>
-- [Info](general/info) <Label color="#43b581">Usable in Guild and DM</Label> <Label color="#43b581">Slash Command</Label>
-- [Whois](general/whois) <Label color="#43b581">Slash Command</Label>
-- [Stats](general/stats) <Label color="#43b581">Usable in Guild and DM</Label> <Label color="#43b581">Slash Command</Label>
+- [Help](general/help) <Label color="#43b581">Usable in Guild and DM</Label>
+- [Info](general/info) <Label color="#43b581">Usable in Guild and DM</Label>
+- [Whois](general/whois)
+- [Stats](general/stats) <Label color="#43b581">Usable in Guild and DM</Label>
 - [Show User Info](general/show-user-info) <Label color="#43b581">Usable in Guild and DM</Label> <Label color="#43b581">Context Menu</Label>
 
 ### Music
-- [Play](music/play) <Label color="#43b581">Slash Command</Label>
-- [Queue](music/queue) <Label color="#43b581">Slash Command</Label>
-- [Start / Resume](music/start-resume) <Label color="#43b581">Slash Command</Label>
-- [Stop / Pause](music/stop-pause) <Label color="#43b581">Slash Command</Label>
-- [Filter](music/filter) <Label color="#43b581">Slash Command</Label>
-- [Disconnect](music/disconnect) <Label color="#43b581">Slash Command</Label>
+- [Play](music/play)
+- [Queue](music/queue)
+- [Start / Resume](music/start-resume)
+- [Stop / Pause](music/stop-pause)
+- [Filter](music/filter)
+- [Disconnect](music/disconnect)
 
 ### Poll
-- [Create Poll](poll/create-poll)
-- [Extend Poll](poll/extend-poll)
-- [End Poll](poll/end-poll)
-- [Delete Poll](poll/delete-poll)
+- [Create Poll](poll/create-poll) <Label color="#FEE75C" text="#000000">Textbased Command</Label>
+- [Extend Poll](poll/extend-poll) <Label color="#FEE75C" text="#000000">Textbased Command</Label>
+- [End Poll](poll/end-poll) <Label color="#FEE75C" text="#000000">Textbased Command</Label>
+- [Delete Poll](poll/delete-poll) <Label color="#FEE75C" text="#000000">Textbased Command</Label>
 
 ### Rank
-- [Leaderboard](rank/leaderboard)
+- [Leaderboard](rank/leaderboard) <Label color="#FEE75C" text="#000000">Textbased Command</Label>
 
 ### Moderators
-- [Clear](moderators/clear) <Label color="#43b581">Slash Command</Label>
-- [Clear Threads](moderators/clear-threads) <Label color="#43b581">Slash Command</Label>
-- [Warn](moderators/warn) <Label color="#43b581">Slash Command</Label>
-- [Kick](moderators/kick) <Label color="#43b581">Slash Command</Label>
-- [Ban](moderators/ban) <Label color="#43b581">Slash Command</Label>
+- [Clear](moderators/clear)
+- [Clear Threads](moderators/clear-threads)
+- [Warn](moderators/warn)
+- [Kick](moderators/kick)
+- [Ban](moderators/ban)
 
 ### Admins
-- [Change Prefix](admins/change-prefix) <Label color="#43b581">Slash Command</Label>
-- [Warns](admins/warns) <Label color="#43b581">Slash Command</Label>
-- [Rules](admins/rules) <Label color="#43b581">Slash Command</Label>
-- [Support](admins/support) <Label color="#43b581">Slash Command</Label> <Label color="#5865F2">Requires Private Threads</Label>
-- [Teamlist](admins/teamlist) <Label color="#43b581">Slash Command</Label>
-- [Log](admins/log) <Label color="#43b581">Slash Command</Label>
+- [Change Prefix](admins/change-prefix)
+- [Warns](admins/warns)
+- [Rules](admins/rules)
+- [Support](admins/support) <Label color="#5865F2">Requires Private Threads</Label>
+- [Teamlist](admins/teamlist)
+- [Log](admins/log)
 
-export const Label = ({children, color}) => (
+export const Label = ({children, color, text}) => (
   <span
     style={{
       backgroundColor: color,
       borderRadius: '5px',
-      color: '#fff',
+      color: text ?? '#fff',
       paddingLeft: '0.2rem',
       paddingRight: '0.2rem',
     }}>
