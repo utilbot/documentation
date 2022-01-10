@@ -1,0 +1,30 @@
+---
+sidebar_position: 3
+---
+
+# Branding
+
+## Colors
+
+| Bot Type           | Hex                                                   |
+| ------------------ | ----------------------------------------------------- |
+| Utilbot            | <Label color="#eba300" text="#000000">#eba300</Label> |
+| Utilbot Canary     | <Label color="#ebe300" text="#000000">#ebe300</Label> |
+| Utilbot Internal   | <Label color="#a5eb00" text="#000000">#a5eb00</Label> |
+| Utilbot Monitoring | <Label color="#00b8eb" text="#000000">#00b8eb</Label> |
+
+We also use Colors and Images from [Discord](https://discord.com/branding).
+
+export const Label = ({ children, color, text }) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '5px',
+      color: text ?? '#fff',
+      paddingLeft: '0.2rem',
+      paddingRight: '0.2rem',
+    }}
+  >
+    {children}
+  </span>
+);
