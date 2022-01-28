@@ -9,6 +9,9 @@ This is a Context Menu Interaction! You can access it via the following ways:
 - Right Click on a User -> Apps -> [Command Name]
 - Right Click on a Message -> Apps -> [Command Name]
 :::
+:::warning Only on Desktop
+Note that Context Menu Interactions are currently only available on Desktop.
+:::
 ```txt
 Show User Info
 ```
