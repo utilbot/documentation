@@ -10,7 +10,7 @@ p!endPoll <pollID> / p!epoll <pollID>
 
 ## Description
 :::info
-This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
+You may need to enable this feature via the Website.
 :::
 
 Ends a poll, so you can see the Results.

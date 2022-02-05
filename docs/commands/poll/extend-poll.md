@@ -10,7 +10,7 @@ p!extendPoll <pollID> <duration> / p!expoll <pollID> <duration>
 
 ## Description
 :::info
-This is an Addon! It could be, that this is not available for your Server. If not, please ask me on my [Discord Server](https://discord.gg/rsTpm8e)!
+You may need to enable this feature via the Website.
 :::
 
 Extends the poll with the given Time.
