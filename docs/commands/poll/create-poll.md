@@ -21,9 +21,9 @@ Creates a Poll.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| question | String | The Poll Title, could be like a Question. | How are you? |
-| duration | String | How long Users can answer the Poll. | 1hour |
-| answer | String | An answer (minimum 2, maximum 8, divided by a \| !) | Good |
+| question | String | The Poll Title, could be like a Question. | Title of the Poll |
+| duration | String | Duration of the Poll. Example: "1h" or "1d" | 1h |
+| answer | String | The possible Answers to the Poll. Separate with "\|". Max 80 Chars per Answer. Minimum 2 Answers. Maximum 25 Answers. Example: "Answer 1\|Answer 2\|Answer 3" | Good |
 
 ## Sample Response
 ![Image](https://cdn.herrtxbias.net/Discord_T66HQfZLPg.png)

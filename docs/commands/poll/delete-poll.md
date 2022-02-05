@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ## Command
 ```
-p!deletePoll <pollID> / p!dpoll <pollID>
+/poll delete <pollId>
 ```
 
 ## Description
@@ -21,7 +21,7 @@ Deletes a Poll, without showing the results.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| pollID | Integer | The ID of the poll (the ID is in the Footer, of the Poll, started by #) | 5773 |
+| pollId | Integer | The ID of the poll (the ID is in the Footer, of the Poll, started by #) | 5773 |
 
 ## Sample Response
 ```

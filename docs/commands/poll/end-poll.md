@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Command
 ```
-p!endPoll <pollID> / p!epoll <pollID>
+/poll end <pollId>
 ```
 
 ## Description
@@ -21,7 +21,7 @@ Ends a poll, so you can see the Results.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| pollID | Integer | The ID of the poll (the ID is in the Footer, of the Poll, started by #) | 5773 |
+| pollId | Integer | The ID of the poll (the ID is in the Footer, of the Poll, started by #) | 5773 |
 
 ## Sample Response
 ![Image](https://cdn.herrtxbias.net/Discord_MKktx2RfDW.png)

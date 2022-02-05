@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Command
 ```
-p!extendPoll <pollID> <duration> / p!expoll <pollID> <duration>
+/poll extend <pollId> <duration>
 ```
 
 ## Description
@@ -21,8 +21,8 @@ Extends the poll with the given Time.
 ## Arguments
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-| pollID | Integer | The ID of the poll (the ID is in the Footer, of the Poll, started by #) | 5773 |
-| duration | String | How long Users can answer the Poll. | 1hour |
+| pollId | Integer | The ID of the poll (the ID is in the Footer, of the Poll) | 5773 |
+| duration | String | Duration of the Poll. Example: "1h" or "1d" | 1h |
 
 ## Sample Response
 ![Image](https://cdn.herrtxbias.net/Discord_DPY7U5lILJ.png)
