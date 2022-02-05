@@ -24,6 +24,4 @@ Deletes a Poll, without showing the results.
 | pollId | Integer | The ID of the poll (the ID is in the Footer, of the Poll, started by #) | 5773 |
 
 ## Sample Response
-```
-none
-```
+![Image](https://cdn.utilbot.media/2022-02-05_22-26-23_6d29cb9e-e5d1-4153-a3f8-a9819c847e57.png)
