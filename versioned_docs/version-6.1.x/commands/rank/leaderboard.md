@@ -24,4 +24,4 @@ Shows the Server Leaderboard.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_jC6aohohJT.png)
+![Image](https://cdn.utilbot.co/Discord_jC6aohohJT.png)

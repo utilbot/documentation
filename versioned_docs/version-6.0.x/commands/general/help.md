@@ -26,4 +26,4 @@ The Help
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-05-28_63f96cd2-6cb8-4759-b45b-d6b6a92202b3.png)
+![Image](https://cdn.utilbot.co/2021-05-28_63f96cd2-6cb8-4759-b45b-d6b6a92202b3.png)

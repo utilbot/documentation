@@ -21,4 +21,4 @@ Manages the Filters for the Player.
 | value | String | Value to be used for the Filter. |  |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_cduEjOw00H.png)
+![Image](https://cdn.utilbot.co/Discord_cduEjOw00H.png)

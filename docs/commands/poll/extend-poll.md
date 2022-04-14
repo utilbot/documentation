@@ -25,4 +25,4 @@ Extends the poll with the given Time.
 | duration | String | Duration of the Poll. Example: "1h" or "1d" | 1h |
 
 ## Sample Response
-![Image](https://cdn.utilbot.media/2022-02-05_22-24-05_bbfb6c8d-8c42-4e04-a4ee-ebaa35d5ad1b.png)
+![Image](https://cdn.utilbot.co/2022-02-05_22-24-05_bbfb6c8d-8c42-4e04-a4ee-ebaa35d5ad1b.png)

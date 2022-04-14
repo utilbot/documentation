@@ -21,10 +21,10 @@ Activates / Deactivates the Warn function.
 
 ### Sample Response
 #### Enable
-![Image](https://cdn.herrtxbias.net/2021-06-01_1ea7485d-2c8d-4276-8bab-deee875ebe1e.png)
+![Image](https://cdn.utilbot.co/2021-06-01_1ea7485d-2c8d-4276-8bab-deee875ebe1e.png)
 
 #### Disable
-![Image](https://cdn.herrtxbias.net/2021-06-01_2456e003-8604-4b32-bcf5-461beb46d981.png)
+![Image](https://cdn.utilbot.co/2021-06-01_2456e003-8604-4b32-bcf5-461beb46d981.png)
 
 ---
 ## Limits Command
@@ -47,10 +47,10 @@ Lists or manages the warn limits.
 
 ### Sample Response
 #### List
-![Image](https://cdn.herrtxbias.net/2021-06-01_21571cbe-ac60-42c9-bcb6-be5d4ab46cce.png)
+![Image](https://cdn.utilbot.co/2021-06-01_21571cbe-ac60-42c9-bcb6-be5d4ab46cce.png)
 
 #### Edit
-![Image](https://cdn.herrtxbias.net/2021-06-01_321be69c-2023-4a23-8152-29aef5eb7c62.png)
+![Image](https://cdn.utilbot.co/2021-06-01_321be69c-2023-4a23-8152-29aef5eb7c62.png)
 
 ---
 ## Maximum Command
@@ -71,7 +71,7 @@ Shows or manages the amount of maximum warns
 
 ### Sample Response
 #### Show
-![Image](https://cdn.herrtxbias.net/2021-06-01_644708bc-12f3-4215-9756-758f41eab026.png)
+![Image](https://cdn.utilbot.co/2021-06-01_644708bc-12f3-4215-9756-758f41eab026.png)
 
 #### Edit
-![Image](https://cdn.herrtxbias.net/2021-06-01_1e34d10d-2448-43a5-9050-283c49f4bfe8.png)
+![Image](https://cdn.utilbot.co/2021-06-01_1e34d10d-2448-43a5-9050-283c49f4bfe8.png)

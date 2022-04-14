@@ -20,4 +20,4 @@ Information about a specific User.
 | user? | User | A user (ID should also be working) | @HerrTxbias#1337 |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-05-28_fc1377b5-e7a0-4136-b34a-b9b8635adf6a.png)
+![Image](https://cdn.utilbot.co/2021-05-28_fc1377b5-e7a0-4136-b34a-b9b8635adf6a.png)

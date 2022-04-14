@@ -26,4 +26,4 @@ Creates a Poll.
 | answer | String | An answer (minimum 2, maximum 8, divided by a \| !) | Good |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_T66HQfZLPg.png)
+![Image](https://cdn.utilbot.co/Discord_T66HQfZLPg.png)

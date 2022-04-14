@@ -20,4 +20,4 @@ Deletes all threads from the channel
 |  |  |  |  |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-06-30_00-21-33_0d27101a-2f4a-4b97-bdd8-ffb5481b2b31.png)
+![Image](https://cdn.utilbot.co/2021-06-30_00-21-33_0d27101a-2f4a-4b97-bdd8-ffb5481b2b31.png)

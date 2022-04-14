@@ -25,4 +25,4 @@ Extends the poll with the given Time.
 | duration | String | How long Users can answer the Poll. | 1hour |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_DPY7U5lILJ.png)
+![Image](https://cdn.utilbot.co/Discord_DPY7U5lILJ.png)

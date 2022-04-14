@@ -26,4 +26,4 @@ Creates a Poll.
 | answer | String | The possible Answers to the Poll. Separate with "\|". Max 80 Chars per Answer. Minimum 2 Answers. Maximum 25 Answers. Example: "Answer 1\|Answer 2\|Answer 3" | Good |
 
 ## Sample Response
-![Image](https://cdn.utilbot.media/2022-02-05_22-23-21_f2ab64e6-3699-4ca8-b44a-c2e5ff54183c.png)
+![Image](https://cdn.utilbot.co/2022-02-05_22-23-21_f2ab64e6-3699-4ca8-b44a-c2e5ff54183c.png)

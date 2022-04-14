@@ -22,8 +22,8 @@ Manage the Teamlist feature.
 
 ## Sample Response
 #### Enable
-![Image](https://cdn.herrtxbias.net/2021-05-28_d551b522-1386-4575-acb1-2890150ec51d.png)
-![Image](https://cdn.herrtxbias.net/2021-05-28_65c89ed9-0b69-4132-b0ac-23e2a30e105a.png)
+![Image](https://cdn.utilbot.co/2021-05-28_d551b522-1386-4575-acb1-2890150ec51d.png)
+![Image](https://cdn.utilbot.co/2021-05-28_65c89ed9-0b69-4132-b0ac-23e2a30e105a.png)
 
 #### Disable
-![Image](https://cdn.herrtxbias.net/2021-05-28_60d0afca-b4dd-4073-98f7-34ffdab851fb.png)
+![Image](https://cdn.utilbot.co/2021-05-28_60d0afca-b4dd-4073-98f7-34ffdab851fb.png)

@@ -28,4 +28,4 @@ Show detailed Information about a User.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-08-13_23-58-19_9af915fb-ac12-409e-a5e1-cec837901824.png)
+![Image](https://cdn.utilbot.co/2021-08-13_23-58-19_9af915fb-ac12-409e-a5e1-cec837901824.png)

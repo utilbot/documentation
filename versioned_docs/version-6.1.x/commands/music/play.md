@@ -22,4 +22,4 @@ Plays the given search from YouTube.
 | provider | String | The Provider to use. | `youtube` |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-07-09_15-06-01_f203a4c9-9c67-472b-9efe-08271dbd2413.png)
+![Image](https://cdn.utilbot.co/2021-07-09_15-06-01_f203a4c9-9c67-472b-9efe-08271dbd2413.png)

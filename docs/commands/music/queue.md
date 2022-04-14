@@ -20,6 +20,6 @@ Manages the Song Queue.
 |  |  |  |  |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_gWsEe9NnkH.png)
+![Image](https://cdn.utilbot.co/Discord_gWsEe9NnkH.png)
 
-![Image](https://cdn.herrtxbias.net/Discord_fp2DJ2Ob69.png)
+![Image](https://cdn.utilbot.co/Discord_fp2DJ2Ob69.png)

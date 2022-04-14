@@ -26,4 +26,4 @@ Bans a Member.
 `**: This argument is required, when global is set to true`
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-05-28_b0cb29be-4a31-47f1-a020-340947540baf.png)
+![Image](https://cdn.utilbot.co/2021-05-28_b0cb29be-4a31-47f1-a020-340947540baf.png)

@@ -20,4 +20,4 @@ Rsumes the paused Song.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_Buo1wxjHuY.png)
+![Image](https://cdn.utilbot.co/Discord_Buo1wxjHuY.png)

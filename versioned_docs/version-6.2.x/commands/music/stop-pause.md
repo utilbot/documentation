@@ -20,4 +20,4 @@ Pauses the currently played Song.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_JvMZ1vqh0c.png)
+![Image](https://cdn.utilbot.co/Discord_JvMZ1vqh0c.png)

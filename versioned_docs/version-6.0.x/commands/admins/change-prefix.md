@@ -20,5 +20,5 @@ Changes the Prefix of the bot.
 | prefix | String | The new Prefix | ! |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-07-02_23-32-04_acba6aca-21de-4b26-bcff-12a7d6d70bd5.png)
-![Image](https://cdn.herrtxbias.net/2021-07-02_23-32-21_2c297fc7-ee32-4552-b7da-a4cd81614bd6.png)
+![Image](https://cdn.utilbot.co/2021-07-02_23-32-04_acba6aca-21de-4b26-bcff-12a7d6d70bd5.png)
+![Image](https://cdn.utilbot.co/2021-07-02_23-32-21_2c297fc7-ee32-4552-b7da-a4cd81614bd6.png)

@@ -24,4 +24,4 @@ Disconnects the Bot from the Voice.
 |  |  |  | None |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/Discord_BYyE14gOvM.png)
+![Image](https://cdn.utilbot.co/Discord_BYyE14gOvM.png)

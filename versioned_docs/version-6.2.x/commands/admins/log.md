@@ -21,7 +21,7 @@ Sets the Log channel where the logs should be posted. By using 'disable' you can
 
 ## Sample Response
 #### Enable
-![Image](https://cdn.herrtxbias.net/2021-06-03_1c13a3e0-645d-4ede-b8f2-55e31aa201df.png)
+![Image](https://cdn.utilbot.co/2021-06-03_1c13a3e0-645d-4ede-b8f2-55e31aa201df.png)
 
 #### Disable
-![Image](https://cdn.herrtxbias.net/2021-06-03_d298856b-328c-4937-99f7-c643d89f98e6.png)
+![Image](https://cdn.utilbot.co/2021-06-03_d298856b-328c-4937-99f7-c643d89f98e6.png)

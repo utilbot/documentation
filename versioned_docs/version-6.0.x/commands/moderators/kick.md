@@ -20,4 +20,4 @@ Kicks a Member.
 | user | USER | A user (ID should also work) | @HerrTxbias |
 
 ## Sample Response
-![Image](https://cdn.herrtxbias.net/2021-05-28_80b15eb0-8ab5-4d3d-a922-7f13dc73068c.png)
+![Image](https://cdn.utilbot.co/2021-05-28_80b15eb0-8ab5-4d3d-a922-7f13dc73068c.png)
