@@ -4,9 +4,8 @@ sidebar_position: 8
 ---
 
 ## Command
-:::caution Guild Feature required
-This feature needs a specific **Guild Feature** enabled in your Guild.
-Your server will need to be on [Boost level 2 or higher to enable private Threads](https://miro.medium.com/max/4800/0*zUFKzh_8O6_llECQ), which are required for this feature.
+:::success Guild Feature not required anymore
+The required Guild Feature `PRIVATE_THREADS` does not exist anymore and therefore is not required anymore.
 :::
 ```
 /support enable <adjust_permissions> [support_channel]
@@ -17,9 +16,6 @@ Manages the Support feature.
 
 ## Permission
 `ADMINISTRATOR`
-
-## Required Guild Feature
-`PRIVATE_THREADS`
 
 ## Arguments
 | Name | Type | Description | Sample Data |
