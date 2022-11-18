@@ -10,7 +10,7 @@ Coming :soon: ... For now, this is just a placeholder and a little sneakpeak
 
 | API Version | Status         | Default |
 | ----------- | -------------- | ------- |
-| 5           | In Development |         |
+| 5           | Available      |         |
 | 4           | Available      | ✅       |
 | 3           | Discontinued   |         |
 | 2           | Discontinued   |         |
