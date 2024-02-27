@@ -26,17 +26,17 @@
     }
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.15",
-    "@docusaurus/preset-classic": "^2.0.0-beta.15",
-    "@docusaurus/theme-live-codeblock": "^2.0.0-beta.15",
-    "@mdx-js/react": "^1.6.21",
-    "classnames": "^2.3.1",
-    "clsx": "^1.1.1",
+    "@docusaurus/core": "^2.4.3",
+    "@docusaurus/preset-classic": "^2.4.3",
+    "@docusaurus/theme-live-codeblock": "^2.4.3",
+    "@mdx-js/react": "^1.6.22",
+    "classnames": "^2.5.1",
+    "clsx": "^1.2.1",
     "hast-util-is-element": "1.1.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "rehype-katex": "4",
-    "remark-math": "3"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rehype-katex": "4.0.0",
+    "remark-math": "3.0.1"
   },
   "browserslist": {
     "production": [
@@ -51,7 +51,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv-cli": "^4.0.0",
-    "release-it": "^14.6.1"
+    "dotenv-cli": "^4.1.1",
+    "release-it": "^14.14.3"
   }
 }

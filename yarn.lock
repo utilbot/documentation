@@ -1756,7 +1756,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:2.4.3, @docusaurus/core@npm:^2.0.0-beta.15":
+"@docusaurus/core@npm:2.4.3, @docusaurus/core@npm:^2.4.3":
   version: 2.4.3
   resolution: "@docusaurus/core@npm:2.4.3"
   dependencies:
@@ -2064,7 +2064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/preset-classic@npm:^2.0.0-beta.15":
+"@docusaurus/preset-classic@npm:^2.4.3":
   version: 2.4.3
   resolution: "@docusaurus/preset-classic@npm:2.4.3"
   dependencies:
@@ -2163,7 +2163,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/theme-live-codeblock@npm:^2.0.0-beta.15":
+"@docusaurus/theme-live-codeblock@npm:^2.4.3":
   version: 2.4.3
   resolution: "@docusaurus/theme-live-codeblock@npm:2.4.3"
   dependencies:
@@ -2441,7 +2441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:^1.6.21, @mdx-js/react@npm:^1.6.22":
+"@mdx-js/react@npm:^1.6.22":
   version: 1.6.22
   resolution: "@mdx-js/react@npm:1.6.22"
   peerDependencies:
@@ -4434,7 +4434,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.3.1":
+"classnames@npm:^2.5.1":
   version: 2.5.1
   resolution: "classnames@npm:2.5.1"
   checksum: da424a8a6f3a96a2e87d01a432ba19315503294ac7e025f9fece656db6b6a0f7b5003bb1fbb51cbb0d9624d964f1b9bb35a51c73af9b2434c7b292c42231c1e5
@@ -4534,7 +4534,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^1.1.1, clsx@npm:^1.2.1":
+"clsx@npm:^1.2.1":
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
@@ -5482,7 +5482,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:^4.0.0":
+"dotenv-cli@npm:^4.1.1":
   version: 4.1.1
   resolution: "dotenv-cli@npm:4.1.1"
   dependencies:
@@ -10253,7 +10253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.1":
+"react-dom@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-dom@npm:17.0.2"
   dependencies:
@@ -10437,7 +10437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.1":
+"react@npm:^17.0.2":
   version: 17.0.2
   resolution: "react@npm:17.0.2"
   dependencies:
@@ -10647,7 +10647,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rehype-katex@npm:4":
+"rehype-katex@npm:4.0.0":
   version: 4.0.0
   resolution: "rehype-katex@npm:4.0.0"
   dependencies:
@@ -10678,7 +10678,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:^14.6.1":
+"release-it@npm:^14.14.3":
   version: 14.14.3
   resolution: "release-it@npm:14.14.3"
   dependencies:
@@ -10737,7 +10737,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-math@npm:3":
+"remark-math@npm:3.0.1":
   version: 3.0.1
   resolution: "remark-math@npm:3.0.1"
   checksum: 690256f27f2b42dadcf41806fec443056e09592454622ae77f03b1a8474e8c83cc7610e694be7e17de92c96cc272c61209e59a6e7a24e3af6ede47d48b185ccd
@@ -12502,19 +12502,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "utilbot-docs@workspace:."
   dependencies:
-    "@docusaurus/core": ^2.0.0-beta.15
-    "@docusaurus/preset-classic": ^2.0.0-beta.15
-    "@docusaurus/theme-live-codeblock": ^2.0.0-beta.15
-    "@mdx-js/react": ^1.6.21
-    classnames: ^2.3.1
-    clsx: ^1.1.1
-    dotenv-cli: ^4.0.0
+    "@docusaurus/core": ^2.4.3
+    "@docusaurus/preset-classic": ^2.4.3
+    "@docusaurus/theme-live-codeblock": ^2.4.3
+    "@mdx-js/react": ^1.6.22
+    classnames: ^2.5.1
+    clsx: ^1.2.1
+    dotenv-cli: ^4.1.1
     hast-util-is-element: 1.1.0
-    react: ^17.0.1
-    react-dom: ^17.0.1
-    rehype-katex: 4
-    release-it: ^14.6.1
-    remark-math: 3
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    rehype-katex: 4.0.0
+    release-it: ^14.14.3
+    remark-math: 3.0.1
   languageName: unknown
   linkType: soft
 
