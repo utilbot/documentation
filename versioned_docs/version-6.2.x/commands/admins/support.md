@@ -4,7 +4,7 @@ sidebar_position: 8
 ---
 
 ## Command
-:::success Guild Feature not required anymore
+:::tip Guild Feature not required anymore
 The required Guild Feature `PRIVATE_THREADS` does not exist anymore and therefore is not required anymore.
 :::
 ```

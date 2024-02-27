@@ -120,7 +120,7 @@ module.exports = {
           },
           showLastUpdateTime: true,
           showLastUpdateAuthor: true,
-          admonitions: {
+          /* admonitions: {
             customTypes: {
               primary: {
                 keyword: 'primary',
@@ -137,10 +137,10 @@ module.exports = {
                 ifmClass: 'danger',
               },
               warning: 'caution',
-              /* 'info': 'info', */
+              'info': 'info',
             },
             icons: "none",
-          },
+          }, */
           versions: {
             current: {
               label: '🚧 Canary 🚧',

@@ -9,7 +9,7 @@ Hey! You successfully found the Online-Documentation for the Utilbot! This is me
 Please have a look on our [text about the future of the music feature](important-notes#the-future-of-music-with-the-bot).
 :::
 
-:::success Message Content becoming a privileged Intent
+:::tip Message Content becoming a privileged Intent
 Please read our notes on Message Content becoming a privileged Intent [here](important-notes#message-content-becoming-a-privileged-intent).
 :::
 
