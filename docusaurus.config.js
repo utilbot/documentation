@@ -85,14 +85,14 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Utilbot. Built with Docusaurus.`,
     },
-    announcementBar: {
+    /* announcementBar: {
       id: 'old_v5',
       content:
         '🛠 You can still access the v5 Documentation of the Utilbot <a target="_blank" rel="noopener noreferrer" href="http://v5.utilbot.info">here</a>!<br />',
       backgroundColor: '#eba300',
       textColor: '#000000',
       isCloseable: true,
-    },
+    }, */
     algolia: {
       apiKey: '0f674592087ad3e8adfe30874656e1d6',
       indexName: 'docs_master',
