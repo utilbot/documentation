@@ -5,10 +5,20 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://utilbot.info',
 	integrations: [starlight({
 		title: 'Utilbot Docs',
+		editLink: {
+			baseUrl: 'https://github.com/utilbot/documentation/edit/main/',
+		},
 		social: {
-			github: 'https://github.com/withastro/starlight'
+			github: 'https://github.com/utilbot/documentation',
+			discord: 'https://utilbot.co/discord',
+		},
+		favicon: '/favicon.ico',
+		logo: {
+			src: './src/assets/utilbot.png',
+			replacesTitle: false,
 		},
 		sidebar: [{
 			label: 'General',
