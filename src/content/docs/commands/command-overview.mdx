@@ -1,0 +1,62 @@
+---
+title: 'Command Overview'
+sidebar:
+  order: 2
+---
+
+## Categories
+:::note[Message Content becoming a privileged Intent]
+Please read our notes on the Message Content becoming a privileged Intent [here](../main/important-notes#message-content-becoming-a-privileged-intent).
+:::
+
+### General
+- [Help](general/help) <Label color="#43b581">Usable in Guild and DM</Label>
+- [Info](general/info) <Label color="#43b581">Usable in Guild and DM</Label>
+- [Whois](general/whois)
+- [Stats](general/stats) <Label color="#43b581">Usable in Guild and DM</Label>
+- [Show User Info](general/show-user-info) <Label color="#43b581">Usable in Guild and DM</Label> <Label color="#43b581">Context Menu</Label>
+
+### Music
+- [Play](music/play)
+- [Queue](music/queue)
+- [Start / Resume](music/start-resume)
+- [Stop / Pause](music/stop-pause)
+- [Filter](music/filter)
+- [Disconnect](music/disconnect)
+
+### Poll
+- [Create Poll](poll/create-poll)
+- [Extend Poll](poll/extend-poll)
+- [End Poll](poll/end-poll)
+- [Delete Poll](poll/delete-poll)
+
+### Rank
+- [Leaderboard](rank/leaderboard)
+
+### Moderators
+- [Clear](moderators/clear)
+- [Clear Threads](moderators/clear-threads)
+- [Warn](moderators/warn)
+- [Kick](moderators/kick)
+- [Ban](moderators/ban)
+
+### Admins
+- [Change Prefix](admins/change-prefix)
+- [Warns](admins/warns)
+- [Rules](admins/rules)
+- [Support](admins/support)
+- [Teamlist](admins/teamlist)
+- [Log](admins/log)
+
+export const Label = ({children, color, text}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '5px',
+      color: text ?? '#fff',
+      paddingLeft: '0.2rem',
+      paddingRight: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
