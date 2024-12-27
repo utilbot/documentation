@@ -7,6 +7,7 @@ sidebar:
 In the following, we list the error codes that can be returned by the Gateway / API.
 
 ## Gateway Error Codes
+
 After recieving an Error, your Connection gets closed and you need to reconnect to the Gateway.
 
 | CODE | DESCRIPTION    | EXPLANATION |
@@ -22,6 +23,7 @@ After recieving an Error, your Connection gets closed and you need to reconnect 
 | 4007 | Wrong Identify | A wrong Identify Payload was sent. |
 
 ## Error Code Specification
-:::info
+
+:::note
 The specification of the error codes is not yet finished.
 :::

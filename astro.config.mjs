@@ -1,10 +1,12 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+// import starlightLinksValidator from 'starlight-links-validator';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://utilbot.info',
 	integrations: [starlight({
+		plugins: [/* starlightLinksValidator() */],
 		title: 'Utilbot Docs',
 		editLink: {
 			baseUrl: 'https://github.com/utilbot/documentation/edit/main/',
@@ -67,6 +69,10 @@ export default defineConfig({
 				}
 			}, {
 				label: 'Music',
+				badge: {
+					text: 'Not Available',
+					variant: 'danger',
+				},
 				collapsed: true,
 				autogenerate: {
 					directory: 'commands/music'

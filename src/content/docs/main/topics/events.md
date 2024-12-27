@@ -4,7 +4,7 @@ sidebar:
   order: 2
 ---
 
-:::info
+:::note
 We are currently editing this page. More content will be added later.
 :::
 

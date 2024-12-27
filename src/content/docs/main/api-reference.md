@@ -4,7 +4,7 @@ sidebar:
   order: 0
 ---
 
-:::info
+:::note
 Coming 🔜 ... For now, this is just a placeholder and a little sneakpeak
 :::
 

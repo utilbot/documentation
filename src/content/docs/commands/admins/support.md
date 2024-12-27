@@ -10,7 +10,7 @@ sidebar:
 The required Guild Feature `PRIVATE_THREADS` does not exist anymore and therefore is not required anymore.
 :::
 
-```
+```txt
 /support enable <adjust_permissions> [support_channel]
 ```
 
@@ -31,7 +31,7 @@ Manages the Support feature.
 
 ## Sample Response
 
-#### Enable
+### Enable
 
 ![Image](https://cdn.utilbot.co/2021-06-30_00-27-05_dd53ba66-cab2-4ad3-8730-67bae5e14508.png)
 ![Image](https://cdn.utilbot.co/2021-06-30_00-27-55_28599bb9-e6b0-49d8-9dca-4e99ce2bd8a1.png)
