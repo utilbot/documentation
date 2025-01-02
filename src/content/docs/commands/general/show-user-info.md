@@ -9,7 +9,7 @@ sidebar:
 
 ## Command
 
-:::info[Context Menu Interaction]
+:::note[Context Menu Interaction]
 This is a Context Menu Interaction! You can access it via the following ways:
 
 - Right Click on a User -> Apps -> [Command Name]

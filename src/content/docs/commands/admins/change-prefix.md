@@ -2,7 +2,14 @@
 title: 'Change Prefix'
 sidebar:
   order: 0
+  badge:
+    text: Discontinued
+    variant: danger
 ---
+
+:::danger[Command Discontinued]
+This command has been discontinued and will be unavailable at some point in the future.
+:::
 
 ## Command
 

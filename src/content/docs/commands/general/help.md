@@ -13,8 +13,8 @@ sidebar:
 /utilbot help
 ```
 
-:::info[Command Deprecated]
-The Old help command is still available in v6 but we recommend using the new slash command.
+:::caution[Command Deprecated]
+The old help command is still available but will be removed in the near future. Please use the new slash command.
 :::
 
 ```txt title="Old Command"
