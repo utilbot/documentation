@@ -14,15 +14,6 @@ sidebar:
 - [Stats](/commands/general/stats)
 - [Show User Info](/commands/general/show-user-info)
 
-### Music
-
-- [Play](/commands/music/play)
-- [Queue](/commands/music/queue)
-- [Start / Resume](/commands/music/start-resume)
-- [Stop / Pause](/commands/music/stop-pause)
-- [Filter](/commands/music/filter)
-- [Disconnect](/commands/music/disconnect)
-
 ### Poll
 
 - [Create Poll](/commands/poll/create-poll)

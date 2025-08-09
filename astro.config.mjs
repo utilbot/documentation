@@ -68,16 +68,6 @@ export default defineConfig({
 					directory: 'commands/general'
 				}
 			}, {
-				label: 'Music',
-				badge: {
-					text: 'Not Available',
-					variant: 'danger',
-				},
-				collapsed: true,
-				autogenerate: {
-					directory: 'commands/music'
-				}
-			}, {
 				label: 'Poll',
 				collapsed: true,
 				autogenerate: {
