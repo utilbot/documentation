@@ -14,7 +14,7 @@ If you experience any Bugs, *please* let me know on my [Discord Server](https://
 
 With the upcoming Major Release, we are going to remove some Commands and Features.
 If you have a look in a page of a Command there will be a note, if this command / feature is deprecated.
-There is also Hint in the [command overview](../commands/command-overview).
+There is also Hint in the [command overview](/commands/command-overview).
 
 ## Important Links
 

@@ -11,5 +11,5 @@ All Permissions listed in the Specific Commands are explained more in the
 
 ## Guild Features
 
-Some Commands need specific Guild Features to work (e.g. the Support Threads feature, which uses Private Threads).
-They are also explained more in the [Developer Documentation "Guild Features"](https://discord.com/developers/docs/resources/guild#guild-object-guild-features)
+Some Commands may need specific Guild Features to work.
+They are also explained more in the [Developer Documentation "Guild Features"](https://docs.discord.com/developers/resources/guild#guild-object-guild-features)
