@@ -28,6 +28,10 @@ export default defineConfig({
 						url: 'https://utilbot.co/',
 					},
 				},
+				metrics: {
+					readingTime: true,
+					words: 'total',
+				},
 			}),
 		],
 		title: 'Utilbot Docs',
