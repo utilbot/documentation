@@ -1,12 +1,31 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLinksValidator from 'starlight-links-validator';
+import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://utilbot.info',
 	integrations: [starlight({
-		plugins: [starlightLinksValidator()],
+		plugins: [
+			starlightLinksValidator(),
+			starlightBlog({
+				title: 'Blog and Changelog',
+				authors: {
+					herrtxbias: {
+						name: 'HerrTxbias',
+						title: 'Project Lead & Developer',
+						picture: 'https://avatars.githubusercontent.com/u/16502676?s=200',
+						url: 'https://herrtxbias.dev',
+					},
+					team: {
+						name: 'Utilbot Team',
+						picture: 'https://avatars.githubusercontent.com/in/331286?s=200',
+						url: 'https://utilbot.co/',
+					},
+				},
+			}),
+		],
 		title: 'Utilbot Docs',
 		editLink: {
 			baseUrl: 'https://github.com/utilbot/documentation/edit/main/',
@@ -42,7 +61,7 @@ export default defineConfig({
 					},
 					{
 						label: 'Changelog',
-						link: '/main/changelog',
+						link: '/blog/tags/changelog',
 					},
 				]
 			},
