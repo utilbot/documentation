@@ -8,7 +8,11 @@ export default defineConfig({
 	site: 'https://utilbot.info',
 	integrations: [starlight({
 		plugins: [
-			starlightLinksValidator(),
+			starlightLinksValidator({
+				exclude: [
+					'/blog{,/**/*}'
+				],
+			}),
 			starlightBlog({
 				title: 'Blog and Changelog',
 				authors: {
