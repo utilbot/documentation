@@ -6,6 +6,7 @@ authors:
   - team
 tags:
   - Announcement
+featured: true
 ---
 
 After long development and testing, we are excited to announce the release of Utilbot API and Web v6! This major update brings a host of new features, improvements, and optimizations to enhance your experience with Utilbot.
