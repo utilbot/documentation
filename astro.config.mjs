@@ -83,37 +83,57 @@ export default defineConfig({
 					{
 						label: 'General',
 						collapsed: true,
-						autogenerate: {
-							directory: 'commands/general',
-						},
+						items: [
+							{
+								autogenerate: {
+									directory: 'commands/general',
+								},
+							},
+						],
 					},
 					{
 						label: 'Poll',
 						collapsed: true,
-						autogenerate: {
-							directory: 'commands/poll',
-						},
+						items: [
+							{
+								autogenerate: {
+									directory: 'commands/poll',
+								},
+							},
+						],
 					},
 					{
 						label: 'Rank',
 						collapsed: true,
-						autogenerate: {
-							directory: 'commands/rank',
-						},
+						items: [
+							{
+								autogenerate: {
+									directory: 'commands/rank',
+								},
+							},
+						],
 					},
 					{
 						label: 'Moderators',
 						collapsed: true,
-						autogenerate: {
-							directory: 'commands/moderators',
-						},
+						items: [
+							{
+								autogenerate: {
+									directory: 'commands/moderators',
+								},
+							},
+						],
 					},
 					{
 						label: 'Admins',
 						collapsed: true,
-						autogenerate: {
-							directory: 'commands/admins',
-						},
+						items: [
+							{
+								autogenerate: {
+									directory: 'commands/admins',
+								},
+							},
+						],
 					},
 				],
 			},

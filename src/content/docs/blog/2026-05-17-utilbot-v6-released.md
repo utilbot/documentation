@@ -1,12 +1,11 @@
 ---
 title: Utilbot API and Web v6 Released
-date: 2026-05-17
+date: 2026-05-17 03:30:00
 authors:
   - herrtxbias
   - team
 tags:
   - Announcement
-featured: true
 ---
 
 After long development and testing, we are excited to announce the release of Utilbot API and Web v6! This major update brings a host of new features, improvements, and optimizations to enhance your experience with Utilbot.
