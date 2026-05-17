@@ -18,4 +18,6 @@ Specifically, this means the following:
 
 :::note
 This change will not be visible on the bot’s production-stage website (https://utilbot.co)!
+
+Update May 17th, 2026: The change is now also visible in the production website.
 :::
