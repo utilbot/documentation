@@ -6,10 +6,14 @@ import { LinkButton } from "./ui/link-button";
 import { ThemeToggle } from "./ui/theme-toggle";
 import { SearchTrigger } from "./ui/search";
 import { config } from "virtual:nimbus/config";
-import { getSidebarSections } from "@cloudflare/nimbus-docs";
 import logo from "../assets/utilbot.png";
 
 const DISCORD_URL = "https://utilbot.co/discord";
+
+const NAV_LINKS = [
+	{ label: "Intro", href: "/main/intro" },
+	{ label: "Changelog", href: "/changelog" },
+];
 
 interface Props {
   /** Astro collection id for the current page, forwarded from DocsLayout. */
@@ -24,15 +28,13 @@ interface Props {
   showSidebar?: boolean;
 }
 
-// `entryId` is part of Props as a forward-compat hook (the version-switcher
-// recipe reads it) but the base Header doesn't use it — leave it off the
-// destructure to avoid an unused-var warning.
-const { collection, showSidebar = true } = Astro.props;
+// `collection`/`entryId` are part of Props as forward-compat hooks (the
+// version-switcher recipe reads them) but the base Header doesn't use
+// them — leave them off the destructure to avoid an unused-var warning.
+const { showSidebar = true } = Astro.props;
 
-// Normalize trailing slash so isActive matches sidebar hrefs.
+// Normalize trailing slash so isActive matches nav hrefs.
 const currentSlug = Astro.url.pathname.replace(/\/$/, "") || "/";
-const sections = await getSidebarSections(currentSlug, { collection });
-const showSections = sections.length >= 2;
 ---
 
 <header class="sticky top-0 z-30 border-b border-border bg-card/80 backdrop-blur-lg">
@@ -45,24 +47,25 @@ const showSections = sections.length >= 2;
         </span>
       </a>
 
-      {showSections && (
-        <nav aria-label="Sections" class="hidden md:flex items-center gap-1 ml-4 pl-4 border-l border-border h-6">
-          {sections.map((section) => (
+      <nav aria-label="Primary" class="hidden md:flex items-center gap-1 ml-4 pl-4 border-l border-border h-6">
+        {NAV_LINKS.map((link) => {
+          const isActive = currentSlug === link.href || currentSlug.startsWith(`${link.href}/`);
+          return (
             <a
-              href={section.href}
-              aria-current={section.isActive ? "page" : undefined}
+              href={link.href}
+              aria-current={isActive ? "page" : undefined}
               class:list={[
                 "px-2 py-1 rounded-md text-[0.8125rem] font-medium no-underline transition-colors",
-                section.isActive
+                isActive
                   ? "text-foreground bg-accent"
                   : "text-muted-foreground hover:text-foreground hover:bg-accent/60",
               ]}
             >
-              {section.label}
+              {link.label}
             </a>
-          ))}
-        </nav>
-      )}
+          );
+        })}
+      </nav>
     </div>
 
     <div class="flex items-center gap-2">
