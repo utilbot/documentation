@@ -5,7 +5,7 @@ import nimbus, { defineConfig as defineNimbusConfig } from "@cloudflare/nimbus-d
 import { tableScroll } from "@cloudflare/nimbus-docs/markdown";
 
 const nimbusConfig = defineNimbusConfig({
-	site: "https://utilbot.info",
+	site: "https://docs.utilbot.co",
 	title: "Utilbot Docs",
 	description: "Documentation, commands, and changelog for the Utilbot Discord bot.",
 	locale: "en",
@@ -60,7 +60,7 @@ const nimbusConfig = defineNimbusConfig({
 });
 
 export default defineConfig({
-	site: "https://utilbot.info",
+	site: "https://docs.utilbot.co",
 	output: "static",
 	vite: {
 		plugins: [tailwindcss()],
