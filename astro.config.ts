@@ -21,7 +21,6 @@ const nimbusConfig = defineNimbusConfig({
 					{ label: "Bot Versions", link: "/main/bot-versions" },
 					{ label: "Branding", link: "/main/branding" },
 					{ label: "Important Notes", link: "/main/important-notes" },
-					{ label: "Changelog", link: "/changelog" },
 				],
 			},
 			{
@@ -53,9 +52,9 @@ const nimbusConfig = defineNimbusConfig({
 						collapsed: true,
 						autogenerate: { directory: "commands/admins" },
 					},
-					{ label: "Changelog", link: "/changelog" },
 				],
 			},
+			{ label: "Changelog", link: "/changelog" },
 		],
 	},
 });
