@@ -1,0 +1,84 @@
+---
+title: 'Giveaway'
+sidebar:
+  order: 0
+---
+
+## Description
+
+<Aside type="note">
+You may need to enable this feature via the Website.
+</Aside>
+
+Manages Giveaways.
+
+## Permission
+
+`MANAGE_GUILD`
+
+---
+
+## Create
+
+```txt
+/giveaway create <channel> <winners> [no-async]
+```
+
+Opens a modal (Title, Description, Duration) after selecting the channel and winner count. Submitting the modal publishes the giveaway.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+| channel | Channel (Text/Announcement) | The channel to create the giveaway in | #giveaways |
+| winners | Integer | The number of winners to pick. Min 1, max 100 | 1 |
+| no-async | Boolean | Disables the experimental async mode | false |
+
+The modal fields are:
+
+| Field | Description | Sample Data |
+| ----- | ----------- | ----------- |
+| Title | The title of the giveaway | Nitro Giveaway |
+| Description | An optional description. Max 2048 characters | Win a month of Discord Nitro! |
+| Duration | Duration relative from now. Example: "1d", "1h", "1m", "1s" | 1d |
+
+---
+
+## End
+
+```txt
+/giveaway end <giveaway>
+```
+
+Ends a giveaway early and announces the winners.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+| giveaway | String | The giveaway to end. Supports autocomplete | Nitro Giveaway |
+
+---
+
+## Reroll
+
+```txt
+/giveaway reroll <giveaway> [winners]
+```
+
+Rerolls the winner(s) of an already ended giveaway.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+| giveaway | String | The giveaway to reroll. Supports autocomplete | Nitro Giveaway |
+| winners | Integer | The amount of winners to reroll. Default: all winners. Min 1, max 100 | 1 |
+
+---
+
+## List
+
+```txt
+/giveaway list
+```
+
+Lists all active giveaways of the guild.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+|      |      |             | None        |

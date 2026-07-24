@@ -7,7 +7,7 @@ sidebar:
 ## Command
 
 ```txt
-/mod ban <user> [message_delete_days] [reason]
+/mod ban <user> [delete_message_days] [reason]
 ```
 
 ## Description
@@ -23,7 +23,7 @@ Bans a Member.
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
 | user | User | A user (ID should also work) | @HerrTxbias |
-| message_delete_days | Integer | Delete messages of the user for the past x days | 4 |
+| delete_message_days | Choice (0-7) | Number of days of the user's messages to delete | 4 Days |
 | reason | String | The ban reason | Writing rude things |
 
 ## Sample Response

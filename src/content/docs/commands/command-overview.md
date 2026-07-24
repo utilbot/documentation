@@ -23,7 +23,23 @@ sidebar:
 
 ### Rank
 
+- [Rank](/commands/rank/rank)
 - [Leaderboard](/commands/rank/leaderboard)
+
+### Giveaways
+
+- [Giveaway](/commands/giveaways/giveaway)
+
+### Fun
+
+- [Starboard](/commands/fun/starboard)
+
+### Misc
+
+- [Quote](/commands/misc/quote)
+- [Tag](/commands/misc/tag)
+- [Tag Management](/commands/misc/tag-management)
+- [Developer](/commands/misc/developer)
 
 ### Moderators
 
