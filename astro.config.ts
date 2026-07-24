@@ -53,6 +53,7 @@ const nimbusConfig = defineNimbusConfig({
 						collapsed: true,
 						autogenerate: { directory: "commands/admins" },
 					},
+					{ label: "Changelog", link: "/changelog" },
 				],
 			},
 		],
