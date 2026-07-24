@@ -1,6 +1,6 @@
 ---
 title: 'Important Notes'
-siderbar:
+sidebar:
   order: 3
 ---
 

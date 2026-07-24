@@ -1,0 +1,74 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import { Card } from "../components/ui/card";
+import { CardGrid } from "../components/ui/card-grid";
+import { config } from "virtual:nimbus/config";
+import logo from "../assets/utilbot.png";
+---
+
+<BaseLayout title={config.title} description={config.description}>
+	<div class="flex flex-col min-h-screen">
+		<Header showSidebar={false} />
+		<main class="flex-1 mx-auto max-w-2xl w-full px-6 py-24">
+			<Image src={logo} alt="" width={64} height={64} class="rounded-lg" />
+			<h1
+				class="mt-4 text-foreground leading-tight"
+				style="font-size: var(--nb-h1-size); font-weight: var(--nb-h1-weight); letter-spacing: var(--nb-h1-tracking);"
+			>
+				Welcome to the Utilbot
+			</h1>
+			<p class="mt-2 text-[1.0625rem] text-muted-foreground leading-relaxed">
+				Get started with the Utilbot.
+			</p>
+
+			<div class="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
+				<a
+					href="/main/intro"
+					class="block rounded-lg border border-border p-4 transition-colors hover:border-border-strong no-underline"
+				>
+					<div class="font-medium text-foreground">Introduction</div>
+					<div class="mt-0.5 text-sm text-muted-foreground">Start here</div>
+				</a>
+				<a
+					href="/changelog"
+					class="block rounded-lg border border-border p-4 transition-colors hover:border-border-strong no-underline"
+				>
+					<div class="font-medium text-foreground">Changelog</div>
+					<div class="mt-0.5 text-sm text-muted-foreground">What's new</div>
+				</a>
+				<a
+					href="https://utilbot.co"
+					target="_blank"
+					rel="noopener"
+					class="block rounded-lg border border-border p-4 transition-colors hover:border-border-strong no-underline"
+				>
+					<div class="font-medium text-foreground">Open Website</div>
+					<div class="mt-0.5 text-sm text-muted-foreground">utilbot.co</div>
+				</a>
+				<a
+					href="https://utilbot.co/invite"
+					target="_blank"
+					rel="noopener"
+					class="block rounded-lg border border-border p-4 transition-colors hover:border-border-strong no-underline"
+				>
+					<div class="font-medium text-foreground">Invite Bot</div>
+					<div class="mt-0.5 text-sm text-muted-foreground">Add to your server</div>
+				</a>
+			</div>
+
+			<CardGrid class="mt-12 sm:grid-cols-3">
+				<Card title="No lags" icon="ph:rocket-launch">
+					We ensure that there is always enough capacity for every guild, so everyone can use the bot without any issues.
+				</Card>
+				<Card title="Stable" icon="ph:shield-check">
+					The bot has an (average) uptime of 99.5%.
+				</Card>
+				<Card title="Feature rich" icon="ph:gear">
+					The bot has many functionalities. A full list of what the bot can do is available in this documentation.
+				</Card>
+			</CardGrid>
+		</main>
+	</div>
+</BaseLayout>

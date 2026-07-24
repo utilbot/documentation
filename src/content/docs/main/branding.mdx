@@ -6,25 +6,11 @@ sidebar:
 
 ## Colors
 
-| Bot Type           | Hex                                                   |
-| ------------------ | ----------------------------------------------------- |
-| Utilbot            | <Label color="#eba300" text="#000000">#eba300</Label> |
-| Utilbot Canary     | <Label color="#ebe300" text="#000000">#ebe300</Label> |
-| Utilbot Internal   | <Label color="#a5eb00" text="#000000">#a5eb00</Label> |
-| Utilbot Monitoring | <Label color="#00b8eb" text="#000000">#00b8eb</Label> |
+| Bot Type           | Hex                                                                                     |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| Utilbot            | <span style="background-color:#eba300;border-radius:5px;color:#000000;padding:0 0.2rem">#eba300</span> |
+| Utilbot Canary     | <span style="background-color:#ebe300;border-radius:5px;color:#000000;padding:0 0.2rem">#ebe300</span> |
+| Utilbot Internal   | <span style="background-color:#a5eb00;border-radius:5px;color:#000000;padding:0 0.2rem">#a5eb00</span> |
+| Utilbot Monitoring | <span style="background-color:#00b8eb;border-radius:5px;color:#000000;padding:0 0.2rem">#00b8eb</span> |
 
 We also use Colors and Images from [Discord](https://discord.com/branding).
-
-export const Label = ({ children, color, text }) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '5px',
-      color: text ?? '#fff',
-      paddingLeft: '0.2rem',
-      paddingRight: '0.2rem',
-    }}
-  >
-    {children}
-  </span>
-);

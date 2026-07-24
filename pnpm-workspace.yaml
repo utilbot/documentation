@@ -1,4 +1,5 @@
 onlyBuiltDependencies:
+  - canvaskit-wasm
   - esbuild
   - sharp
   - workerd

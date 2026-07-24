@@ -1,57 +1,45 @@
-# Starlight Starter Kit: Basics
+# Utilbot Documentation
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Built with [Nimbus](https://github.com/cloudflare/nimbus), Cloudflare's Astro-based docs framework, and deployed to Cloudflare Workers.
 
-```
-npm create astro@latest -- --template starlight
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## Project Structure
 
 ```
 .
 ├── public/
 ├── src/
 │   ├── assets/
+│   ├── components/
 │   ├── content/
-│   │   ├── docs/
+│   │   ├── docs/           # main + commands documentation
+│   │   ├── changelog/      # changelog / announcement entries
 │   │   └── config.ts
-│   └── env.d.ts
-├── astro.config.mjs
+│   ├── layouts/
+│   ├── lib/
+│   └── pages/
+├── astro.config.ts
+├── nimbus.json
 ├── package.json
-└── tsconfig.json
+└── wrangler.jsonc
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Docs pages live in `src/content/docs/` as `.md`/`.mdx` files; the sidebar structure is defined in `astro.config.ts`. Changelog entries live in `src/content/changelog/` and render as a reverse-chronological feed at `/changelog`.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
-
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                     | Action                                                      |
-| :-------------------------- | :---------------------------------------------------------- |
-| `pnpm install`              | Installs dependencies                                       |
-| `pnpm run dev`              | Starts local Astro dev server at `localhost:4321`          |
-| `pnpm run build`            | Build your production site to `./dist/`                    |
-| `pnpm run preview`          | Preview your build locally, before deploying                |
-| `pnpm run worker:dev`       | Run Cloudflare Workers local dev for the configured assets  |
-| `pnpm run deploy:dry-run`   | Validate Workers deployment configuration without deploying |
-| `pnpm run deploy`           | Build and deploy to Cloudflare Workers                      |
-| `pnpm run astro ...`        | Run CLI commands like `astro add`, `astro check`           |
-| `pnpm run astro -- --help`  | Get help using the Astro CLI                                |
+| Command                    | Action                                                       |
+| :-------------------------- | :------------------------------------------------------------ |
+| `pnpm install`              | Installs dependencies                                        |
+| `pnpm run dev`               | Starts local Astro dev server at `localhost:4321`            |
+| `pnpm run build`            | Type-checks and builds the production site to `./dist/`      |
+| `pnpm run preview`          | Preview your build locally, before deploying                 |
+| `pnpm run lint:docs`        | Lint content frontmatter and internal links                  |
+| `pnpm run worker:dev`       | Run Cloudflare Workers local dev for the configured assets    |
+| `pnpm run deploy:dry-run`   | Validate Workers deployment configuration without deploying   |
+| `pnpm run deploy`           | Build and deploy to Cloudflare Workers                        |
 
-## 👀 Want to learn more?
+## Want to learn more?
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+Check out [Nimbus's docs](https://nimbus-docs.com) or the [Astro documentation](https://docs.astro.build).
