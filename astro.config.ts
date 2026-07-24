@@ -17,10 +17,10 @@ const nimbusConfig = defineNimbusConfig({
 			{
 				label: "General",
 				items: [
-					{ label: "Intro", link: "/main/intro" },
-					{ label: "Bot Versions", link: "/main/bot-versions" },
-					{ label: "Branding", link: "/main/branding" },
-					{ label: "Important Notes", link: "/main/important-notes" },
+					{ label: "Intro", link: "/general/intro" },
+					{ label: "Bot Versions", link: "/general/bot-versions" },
+					{ label: "Branding", link: "/general/branding" },
+					{ label: "Important Notes", link: "/general/important-notes" },
 				],
 			},
 			{

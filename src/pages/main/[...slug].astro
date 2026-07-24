@@ -1,0 +1,37 @@
+---
+/**
+ * /main/<slug> — redirects to /general/<slug>.
+ *
+ * The "main" docs folder was renamed to "general"; this keeps old
+ * /main/* links and bookmarks working. Paths are derived from the
+ * `docs` collection's `general/` entries, so any page added there
+ * automatically gets a matching /main/* redirect.
+ */
+import { getCollection } from "astro:content";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+	const entries = await getCollection("docs", (entry) => entry.id.startsWith("general/"));
+	return entries.map((entry) => {
+		const slug = entry.id.slice("general/".length);
+		return { params: { slug }, props: { slug } };
+	});
+}
+
+const { slug } = Astro.props as { slug: string };
+const destination = `/general/${slug}`;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Redirecting…</title>
+		<meta http-equiv="refresh" content={`0;url=${destination}`} />
+		<link rel="canonical" href={destination} />
+	</head>
+	<body>
+		<p>This page has moved to <a href={destination}>{destination}</a>.</p>
+	</body>
+</html>
