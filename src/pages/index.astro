@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import { Card } from "../components/ui/card";
 import { CardGrid } from "../components/ui/card-grid";
 import { config } from "virtual:nimbus/config";
@@ -70,5 +71,6 @@ import logo from "../assets/utilbot.png";
 				</Card>
 			</CardGrid>
 		</main>
+		<Footer />
 	</div>
 </BaseLayout>

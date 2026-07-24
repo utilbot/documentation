@@ -1,0 +1,25 @@
+---
+const YEAR = new Date().getFullYear();
+
+const LEGAL_LINKS = [
+	{ label: "Imprint", href: "https://utilbot.link/imprint" },
+	{ label: "Privacy Policy", href: "https://utilbot.link/privacy" },
+	{ label: "Terms of Service", href: "https://utilbot.link/terms" },
+];
+---
+
+<footer class="border-t border-border">
+	<div class="mx-auto flex flex-col items-center justify-between gap-3 px-4 py-6 text-sm text-muted-foreground sm:flex-row lg:px-6">
+		<p class="m-0">&copy; {YEAR} Utilbot. All rights reserved.</p>
+		<nav aria-label="Legal" class="flex items-center gap-4">
+			{LEGAL_LINKS.map((link) => (
+				<a
+					href={link.href}
+					class="text-muted-foreground no-underline transition-colors hover:text-foreground"
+				>
+					{link.label}
+				</a>
+			))}
+		</nav>
+	</div>
+</footer>
