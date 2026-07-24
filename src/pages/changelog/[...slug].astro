@@ -22,6 +22,14 @@ const dateLabel = date.toLocaleDateString("en-US", { year: "numeric", month: "lo
 const markdownPath = `/changelog/${entry.id}/index.md`;
 const markdownUrl = Astro.site ? new URL(markdownPath, Astro.site).href : markdownPath;
 const socialImage = entry.data.socialImage ?? `/og/changelog/${entry.id}.png`;
+
+// Pagefind only indexes pages carrying `data-pagefind-body` (docs pages
+// opt in via the same attribute in DocsLayout); mirror that here so
+// changelog entries are searchable too. Excluded entries stay out of the
+// index the same way a noindex docs page would.
+const pagefindAttrs: Record<string, string> = entry.data.noindex
+	? { "data-pagefind-ignore": "" }
+	: { "data-pagefind-body": "" };
 ---
 
 <ChangelogLayout
@@ -45,7 +53,7 @@ const socialImage = entry.data.socialImage ?? `/og/changelog/${entry.id}.png`;
 		<span>Changelog</span>
 	</a>
 
-	<article>
+	<article {...pagefindAttrs}>
 		<time datetime={iso} class="block text-[0.8125rem] font-medium tabular-nums text-muted-foreground">
 			{dateLabel}
 		</time>
