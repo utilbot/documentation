@@ -6,7 +6,7 @@ sidebar:
 
 ## Command
 ```
-/poll create <title> <duration> <answers>
+/poll create
 ```
 
 ## Description
@@ -14,17 +14,20 @@ sidebar:
 You may need to enable this feature via the Website.
 </Aside>
 
-Creates a Poll.
+Opens a modal to create a Poll. Fill in the fields and submit the modal to publish the poll.
 
 ## Permission
 `MANAGE_MESSAGES`
 
 ## Arguments
-| Name | Type | Description | Sample Data |
-| ---- | ---- | ----------- | ----------- |
-| question | String | The Poll Title, could be like a Question. | Title of the Poll |
-| duration | String | Duration of the Poll. Example: "1h" or "1d" | 1h |
-| answer | String | The possible Answers to the Poll. Separate with "\|". Max 80 Chars per Answer. Minimum 2 Answers. Maximum 25 Answers. Example: "Answer 1\|Answer 2\|Answer 3" | Good |
+
+This command opens a modal instead of taking inline options:
+
+| Field | Description | Sample Data |
+| ----- | ----------- | ----------- |
+| Title | The Poll title, could be like a question. Min 5, max 200 characters. | Title of the Poll |
+| Duration | Duration of the Poll. Example: "1h" or "1d" | 1h |
+| Answers | The possible answers to the Poll, one per line. Max 25 answers, max 80 characters per answer. | Answer 1\nAnswer 2\nAnswer 3 |
 
 ## Sample Response
 ![Image](https://cdn.utilbot.co/2022-02-05_22-23-21_f2ab64e6-3699-4ca8-b44a-c2e5ff54183c.png)

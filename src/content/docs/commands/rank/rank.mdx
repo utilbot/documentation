@@ -1,13 +1,13 @@
 ---
-title: 'Leaderboard'
+title: 'Rank'
 sidebar:
-  order: 1
+  order: 0
 ---
 
 ## Command
 
 ```txt
-/leaderboard
+/rank [target] [ephemeral]
 ```
 
 ## Description
@@ -16,7 +16,7 @@ sidebar:
 You may need to enable this feature via the Website.
 </Aside>
 
-Shows the Server Leaderboard.
+Shows the Rank Card for you, or another Member.
 
 ## Permission
 
@@ -26,8 +26,5 @@ Shows the Server Leaderboard.
 
 | Name | Type | Description | Sample Data |
 | ---- | ---- | ----------- | ----------- |
-|      |      |             | None        |
-
-## Sample Response
-
-![Image](https://cdn.utilbot.co/Discord_jC6aohohJT.png)
+| target | User | The User to show the Rank Card for. Default: yourself | @HerrTxbias |
+| ephemeral | Boolean | Send the message as an ephemeral message | true |

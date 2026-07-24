@@ -1,0 +1,60 @@
+---
+title: 'Starboard'
+sidebar:
+  order: 0
+---
+
+## Description
+
+<Aside type="note">
+You may need to enable this feature via the Website.
+</Aside>
+
+Creates a starboard to save your favorite messages with a ⭐️. When a message reaches the configured amount of star reactions, it gets posted to the starboard channel.
+
+## Permission
+
+`ADMINISTRATOR`
+
+---
+
+## Setup
+
+```txt
+/starboard setup <channel> [amount]
+```
+
+Sets up (or reconfigures) the starboard.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+| channel | Channel (Text/News) | The channel to post starred messages to | #starboard |
+| amount | Integer | The amount of stars needed to save a message. Min 1, max 100 | 3 |
+
+---
+
+## Config
+
+```txt
+/starboard config
+```
+
+Shows the current starboard configuration.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+|      |      |             | None        |
+
+---
+
+## Disable
+
+```txt
+/starboard disable
+```
+
+Disables the starboard and restores all default settings.
+
+| Name | Type | Description | Sample Data |
+| ---- | ---- | ----------- | ----------- |
+|      |      |             | None        |

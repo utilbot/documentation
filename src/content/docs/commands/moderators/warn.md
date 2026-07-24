@@ -10,10 +10,10 @@ sidebar:
 ```
 
 ## Description
-Warns a Member.
+Warns a Member. Requires the warn feature to be enabled via [`/warns enable`](/commands/admins/warns).
 
 ## Permission
-`KICK_MEMBERS`
+`MODERATE_MEMBERS`
 
 ## Arguments
 | Name | Type | Description | Sample Data |

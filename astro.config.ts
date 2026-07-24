@@ -43,6 +43,21 @@ const nimbusConfig = defineNimbusConfig({
 						autogenerate: { directory: "commands/rank" },
 					},
 					{
+						label: "Giveaways",
+						collapsed: true,
+						autogenerate: { directory: "commands/giveaways" },
+					},
+					{
+						label: "Fun",
+						collapsed: true,
+						autogenerate: { directory: "commands/fun" },
+					},
+					{
+						label: "Misc",
+						collapsed: true,
+						autogenerate: { directory: "commands/misc" },
+					},
+					{
 						label: "Moderators",
 						collapsed: true,
 						autogenerate: { directory: "commands/moderators" },
